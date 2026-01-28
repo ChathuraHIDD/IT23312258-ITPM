@@ -1,0 +1,2710 @@
+
+> it23312258-itpm@1.0.0 test
+> playwright test tests/assignment.spec.js --reporter=json
+
+{
+  "config": {
+    "configFile": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/playwright.config.js",
+    "rootDir": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "json"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "runAgents": "none",
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.58.0",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "assignment.spec.js",
+      "file": "assignment.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "IT3040 Assignment 1 - SwiftTranslator Automation",
+          "file": "assignment.spec.js",
+          "line": 274,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Pos_Fun_0001: Convert a short daily greeting phrase",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 9237,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-28T18:55:45.025Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "963f0d5d1bca2915e267-cc953bde35f1fb93f47e",
+              "file": "assignment.spec.js",
+              "line": 288,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0002: Mixed language input (Singlish + English terms)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 11421,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-28T18:55:54.863Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "963f0d5d1bca2915e267-bb009c812aa09ff9a9ab",
+              "file": "assignment.spec.js",
+              "line": 288,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0003: Simple Request",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6091,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-28T18:56:06.294Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "963f0d5d1bca2915e267-bcc7dc12915ffaecef82",
+              "file": "assignment.spec.js",
+              "line": 288,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0004: Morning greeting",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 16379,
+                      "error": {
+                        "message": "TimeoutError: page.waitForFunction: Timeout 10000ms exceeded.",
+                        "stack": "TimeoutError: page.waitForFunction: Timeout 10000ms exceeded.\n    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:304:18",
+                        "location": {
+                          "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                          "column": 18,
+                          "line": 304
+                        },
+                        "snippet": "  302 |\n  303 |       // Wait for the output to contain some text (not empty)\n> 304 |       await page.waitForFunction(\n      |                  ^\n  305 |         (selector) => {\n  306 |           const element = document.querySelector(selector);\n  307 |           return element && element.textContent.trim().length > 0;"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                            "column": 18,
+                            "line": 304
+                          },
+                          "message": "TimeoutError: page.waitForFunction: Timeout 10000ms exceeded.\n\n  302 |\n  303 |       // Wait for the output to contain some text (not empty)\n> 304 |       await page.waitForFunction(\n      |                  ^\n  305 |         (selector) => {\n  306 |           const element = document.querySelector(selector);\n  307 |           return element && element.textContent.trim().length > 0;\n    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:304:18"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-28T18:56:12.394Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-67359-s-Fun-0004-Morning-greeting/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-67359-s-Fun-0004-Morning-greeting/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-67359-s-Fun-0004-Morning-greeting/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                        "column": 18,
+                        "line": 304
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "963f0d5d1bca2915e267-d3dce3759fedb6787a4c",
+              "file": "assignment.spec.js",
+              "line": 288,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0005: Asking about well-being",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "timedOut",
+                      "duration": 30515,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                            "column": 18,
+                            "line": 304
+                          },
+                          "message": "Error: page.waitForFunction: Test timeout of 30000ms exceeded.\n\n  302 |\n  303 |       // Wait for the output to contain some text (not empty)\n> 304 |       await page.waitForFunction(\n      |                  ^\n  305 |         (selector) => {\n  306 |           const element = document.querySelector(selector);\n  307 |           return element && element.textContent.trim().length > 0;\n    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:304:18"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-28T18:56:29.470Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-7cdee-005-Asking-about-well-being/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-7cdee-005-Asking-about-well-being/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-7cdee-005-Asking-about-well-being/error-context.md"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "963f0d5d1bca2915e267-b1048444c1e95cc39e95",
+              "file": "assignment.spec.js",
+              "line": 288,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0006: Expressing gratitude",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 14028,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"බොහ\u001b[7mො\u001b[27mම ඉස්තුති\"\u001b[39m\nReceived: \u001b[31m\"බොහ\u001b[7mෝ\u001b[27mම ඉස්තුති\"\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"බොහ\u001b[7mො\u001b[27mම ඉස්තුති\"\u001b[39m\nReceived: \u001b[31m\"බොහ\u001b[7mෝ\u001b[27mම ඉස්තුති\"\u001b[39m\n    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:317:33",
+                        "location": {
+                          "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                          "column": 33,
+                          "line": 317
+                        },
+                        "snippet": "  315 |\n  316 |       // Verify\n> 317 |       expect(outputText.trim()).toBe(scenario.expected);\n      |                                 ^\n  318 |     });\n  319 |   }\n  320 |"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                            "column": 33,
+                            "line": 317
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"බොහ\u001b[7mො\u001b[27mම ඉස්තුති\"\u001b[39m\nReceived: \u001b[31m\"බොහ\u001b[7mෝ\u001b[27mම ඉස්තුති\"\u001b[39m\n\n  315 |\n  316 |       // Verify\n> 317 |       expect(outputText.trim()).toBe(scenario.expected);\n      |                                 ^\n  318 |     });\n  319 |   }\n  320 |\n    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:317:33"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-28T18:57:01.031Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-702e2-n-0006-Expressing-gratitude/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-702e2-n-0006-Expressing-gratitude/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-702e2-n-0006-Expressing-gratitude/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                        "column": 33,
+                        "line": 317
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "963f0d5d1bca2915e267-9b5d11333855561ea2ac",
+              "file": "assignment.spec.js",
+              "line": 288,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0007: Going home",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 7887,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මම ගෙදර යන\u001b[7mව\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"මම ගෙදර යන\u001b[7mwඅ\u001b[27m\"\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මම ගෙදර යන\u001b[7mව\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"මම ගෙදර යන\u001b[7mwඅ\u001b[27m\"\u001b[39m\n    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:317:33",
+                        "location": {
+                          "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                          "column": 33,
+                          "line": 317
+                        },
+                        "snippet": "  315 |\n  316 |       // Verify\n> 317 |       expect(outputText.trim()).toBe(scenario.expected);\n      |                                 ^\n  318 |     });\n  319 |   }\n  320 |"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                            "column": 33,
+                            "line": 317
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මම ගෙදර යන\u001b[7mව\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"මම ගෙදර යන\u001b[7mwඅ\u001b[27m\"\u001b[39m\n\n  315 |\n  316 |       // Verify\n> 317 |       expect(outputText.trim()).toBe(scenario.expected);\n      |                                 ^\n  318 |     });\n  319 |   }\n  320 |\n    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:317:33"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-28T18:57:15.979Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-57728-ion-Pos-Fun-0007-Going-home/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-57728-ion-Pos-Fun-0007-Going-home/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-57728-ion-Pos-Fun-0007-Going-home/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                        "column": 33,
+                        "line": 317
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "963f0d5d1bca2915e267-4c21440e6d62297cf0ec",
+              "file": "assignment.spec.js",
+              "line": 288,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0008: Eating food",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 7770,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මම ක\u001b[7mෑ\u001b[27mම කන\u001b[7mව\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"මම ක\u001b[7mැ\u001b[27mම කන\u001b[7mwඅ\u001b[27m\"\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මම ක\u001b[7mෑ\u001b[27mම කන\u001b[7mව\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"මම ක\u001b[7mැ\u001b[27mම කන\u001b[7mwඅ\u001b[27m\"\u001b[39m\n    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:317:33",
+                        "location": {
+                          "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                          "column": 33,
+                          "line": 317
+                        },
+                        "snippet": "  315 |\n  316 |       // Verify\n> 317 |       expect(outputText.trim()).toBe(scenario.expected);\n      |                                 ^\n  318 |     });\n  319 |   }\n  320 |"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                            "column": 33,
+                            "line": 317
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මම ක\u001b[7mෑ\u001b[27mම කන\u001b[7mව\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"මම ක\u001b[7mැ\u001b[27mම කන\u001b[7mwඅ\u001b[27m\"\u001b[39m\n\n  315 |\n  316 |       // Verify\n> 317 |       expect(outputText.trim()).toBe(scenario.expected);\n      |                                 ^\n  318 |     });\n  319 |   }\n  320 |\n    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:317:33"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-28T18:57:24.698Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-90298-on-Pos-Fun-0008-Eating-food/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-90298-on-Pos-Fun-0008-Eating-food/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-90298-on-Pos-Fun-0008-Eating-food/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                        "column": 33,
+                        "line": 317
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "963f0d5d1bca2915e267-43214ac05abbefce16a4",
+              "file": "assignment.spec.js",
+              "line": 288,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0009: Simple question about name",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 9436,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"ඔයග\u001b[7mේ\u001b[27m නම මොකක්ද\"\u001b[39m\nReceived: \u001b[31m\"ඔයග\u001b[7mෙ\u001b[27m නම මොකක්ද\"\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"ඔයග\u001b[7mේ\u001b[27m නම මොකක්ද\"\u001b[39m\nReceived: \u001b[31m\"ඔයග\u001b[7mෙ\u001b[27m නම මොකක්ද\"\u001b[39m\n    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:317:33",
+                        "location": {
+                          "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                          "column": 33,
+                          "line": 317
+                        },
+                        "snippet": "  315 |\n  316 |       // Verify\n> 317 |       expect(outputText.trim()).toBe(scenario.expected);\n      |                                 ^\n  318 |     });\n  319 |   }\n  320 |"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                            "column": 33,
+                            "line": 317
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"ඔයග\u001b[7mේ\u001b[27m නම මොකක්ද\"\u001b[39m\nReceived: \u001b[31m\"ඔයග\u001b[7mෙ\u001b[27m නම මොකක්ද\"\u001b[39m\n\n  315 |\n  316 |       // Verify\n> 317 |       expect(outputText.trim()).toBe(scenario.expected);\n      |                                 ^\n  318 |     });\n  319 |   }\n  320 |\n    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:317:33"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-28T18:57:33.266Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-b5425--Simple-question-about-name/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-b5425--Simple-question-about-name/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-b5425--Simple-question-about-name/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                        "column": 33,
+                        "line": 317
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "963f0d5d1bca2915e267-73a1df627275bd6f7ce0",
+              "file": "assignment.spec.js",
+              "line": 288,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0010: Farewell phrase",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 8295,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මම යන\u001b[7mව\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"මම යන\u001b[7mwඅ\u001b[27m\"\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මම යන\u001b[7mව\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"මම යන\u001b[7mwඅ\u001b[27m\"\u001b[39m\n    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:317:33",
+                        "location": {
+                          "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                          "column": 33,
+                          "line": 317
+                        },
+                        "snippet": "  315 |\n  316 |       // Verify\n> 317 |       expect(outputText.trim()).toBe(scenario.expected);\n      |                                 ^\n  318 |     });\n  319 |   }\n  320 |"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                            "column": 33,
+                            "line": 317
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මම යන\u001b[7mව\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"මම යන\u001b[7mwඅ\u001b[27m\"\u001b[39m\n\n  315 |\n  316 |       // Verify\n> 317 |       expect(outputText.trim()).toBe(scenario.expected);\n      |                                 ^\n  318 |     });\n  319 |   }\n  320 |\n    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:317:33"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-28T18:57:43.613Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-1496c-os-Fun-0010-Farewell-phrase/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-1496c-os-Fun-0010-Farewell-phrase/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-1496c-os-Fun-0010-Farewell-phrase/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                        "column": 33,
+                        "line": 317
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "963f0d5d1bca2915e267-f72a979ed0452771f666",
+              "file": "assignment.spec.js",
+              "line": 288,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0011: Request for water",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 8766,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-28T18:57:52.767Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "963f0d5d1bca2915e267-ea66fdcda721ea89511d",
+              "file": "assignment.spec.js",
+              "line": 288,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0012: Talking about work",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 7309,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මම office එකට යන\u001b[7mව\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"මම office එකට යන\u001b[7mwඅ\u001b[27m\"\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මම office එකට යන\u001b[7mව\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"මම office එකට යන\u001b[7mwඅ\u001b[27m\"\u001b[39m\n    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:317:33",
+                        "location": {
+                          "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                          "column": 33,
+                          "line": 317
+                        },
+                        "snippet": "  315 |\n  316 |       // Verify\n> 317 |       expect(outputText.trim()).toBe(scenario.expected);\n      |                                 ^\n  318 |     });\n  319 |   }\n  320 |"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                            "column": 33,
+                            "line": 317
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මම office එකට යන\u001b[7mව\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"මම office එකට යන\u001b[7mwඅ\u001b[27m\"\u001b[39m\n\n  315 |\n  316 |       // Verify\n> 317 |       expect(outputText.trim()).toBe(scenario.expected);\n      |                                 ^\n  318 |     });\n  319 |   }\n  320 |\n    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:317:33"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-28T18:58:01.706Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-d121a-Fun-0012-Talking-about-work/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-d121a-Fun-0012-Talking-about-work/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-d121a-Fun-0012-Talking-about-work/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                        "column": 33,
+                        "line": 317
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "963f0d5d1bca2915e267-98a75bb487bbfe5857fc",
+              "file": "assignment.spec.js",
+              "line": 288,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0013: Asking for location",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 8561,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-28T18:58:09.668Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "963f0d5d1bca2915e267-42fe3c96d053c6185f53",
+              "file": "assignment.spec.js",
+              "line": 288,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0014: Time-related question",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 6143,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"ව\u001b[7mේලාව\u001b[27m කියත\"\u001b[39m\nReceived: \u001b[31m\"ව\u001b[7mෙලwඅ\u001b[27m කියත\"\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"ව\u001b[7mේලාව\u001b[27m කියත\"\u001b[39m\nReceived: \u001b[31m\"ව\u001b[7mෙලwඅ\u001b[27m කියත\"\u001b[39m\n    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:317:33",
+                        "location": {
+                          "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                          "column": 33,
+                          "line": 317
+                        },
+                        "snippet": "  315 |\n  316 |       // Verify\n> 317 |       expect(outputText.trim()).toBe(scenario.expected);\n      |                                 ^\n  318 |     });\n  319 |   }\n  320 |"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                            "column": 33,
+                            "line": 317
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"ව\u001b[7mේලාව\u001b[27m කියත\"\u001b[39m\nReceived: \u001b[31m\"ව\u001b[7mෙලwඅ\u001b[27m කියත\"\u001b[39m\n\n  315 |\n  316 |       // Verify\n> 317 |       expect(outputText.trim()).toBe(scenario.expected);\n      |                                 ^\n  318 |     });\n  319 |   }\n  320 |\n    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:317:33"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-28T18:58:18.407Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-52cf4--0014-Time-related-question/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-52cf4--0014-Time-related-question/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-52cf4--0014-Time-related-question/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                        "column": 33,
+                        "line": 317
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "963f0d5d1bca2915e267-01a42cd05f0db42ac7b3",
+              "file": "assignment.spec.js",
+              "line": 288,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0015: Affirmative response",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 9,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 8961,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"\u001b[7mඔව්\u001b[27m මම කරන්න\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7mow\u001b[27m මම කරන්න\"\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"\u001b[7mඔව්\u001b[27m මම කරන්න\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7mow\u001b[27m මම කරන්න\"\u001b[39m\n    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:317:33",
+                        "location": {
+                          "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                          "column": 33,
+                          "line": 317
+                        },
+                        "snippet": "  315 |\n  316 |       // Verify\n> 317 |       expect(outputText.trim()).toBe(scenario.expected);\n      |                                 ^\n  318 |     });\n  319 |   }\n  320 |"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                            "column": 33,
+                            "line": 317
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"\u001b[7mඔව්\u001b[27m මම කරන්න\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7mow\u001b[27m මම කරන්න\"\u001b[39m\n\n  315 |\n  316 |       // Verify\n> 317 |       expect(outputText.trim()).toBe(scenario.expected);\n      |                                 ^\n  318 |     });\n  319 |   }\n  320 |\n    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:317:33"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-28T18:58:25.256Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-75edf-n-0015-Affirmative-response/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-75edf-n-0015-Affirmative-response/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-75edf-n-0015-Affirmative-response/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                        "column": 33,
+                        "line": 317
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "963f0d5d1bca2915e267-cdf4ae88bac468f8d1be",
+              "file": "assignment.spec.js",
+              "line": 288,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0016: Negative response",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 10,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 7688,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"න\u001b[7mෑඒ\u001b[27m මම බ\u001b[7mෑහේ\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"න\u001b[7mැඇ\u001b[27m මම බ\u001b[7mැහෙ\u001b[27m\"\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"න\u001b[7mෑඒ\u001b[27m මම බ\u001b[7mෑහේ\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"න\u001b[7mැඇ\u001b[27m මම බ\u001b[7mැහෙ\u001b[27m\"\u001b[39m\n    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:317:33",
+                        "location": {
+                          "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                          "column": 33,
+                          "line": 317
+                        },
+                        "snippet": "  315 |\n  316 |       // Verify\n> 317 |       expect(outputText.trim()).toBe(scenario.expected);\n      |                                 ^\n  318 |     });\n  319 |   }\n  320 |"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                            "column": 33,
+                            "line": 317
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"න\u001b[7mෑඒ\u001b[27m මම බ\u001b[7mෑහේ\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"න\u001b[7mැඇ\u001b[27m මම බ\u001b[7mැහෙ\u001b[27m\"\u001b[39m\n\n  315 |\n  316 |       // Verify\n> 317 |       expect(outputText.trim()).toBe(scenario.expected);\n      |                                 ^\n  318 |     });\n  319 |   }\n  320 |\n    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:317:33"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-28T18:58:35.165Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-4c2f3--Fun-0016-Negative-response/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-4c2f3--Fun-0016-Negative-response/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-4c2f3--Fun-0016-Negative-response/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                        "column": 33,
+                        "line": 317
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "963f0d5d1bca2915e267-5e1dcb716652c13e62de",
+              "file": "assignment.spec.js",
+              "line": 288,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0017: Talking about studying",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 11,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 7946,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මම පදම් කිය\u001b[7mවනව\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"මම පදම් කිය\u001b[7mwඅනwඅ\u001b[27m\"\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මම පදම් කිය\u001b[7mවනව\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"මම පදම් කිය\u001b[7mwඅනwඅ\u001b[27m\"\u001b[39m\n    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:317:33",
+                        "location": {
+                          "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                          "column": 33,
+                          "line": 317
+                        },
+                        "snippet": "  315 |\n  316 |       // Verify\n> 317 |       expect(outputText.trim()).toBe(scenario.expected);\n      |                                 ^\n  318 |     });\n  319 |   }\n  320 |"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                            "column": 33,
+                            "line": 317
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මම පදම් කිය\u001b[7mවනව\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"මම පදම් කිය\u001b[7mwඅනwඅ\u001b[27m\"\u001b[39m\n\n  315 |\n  316 |       // Verify\n> 317 |       expect(outputText.trim()).toBe(scenario.expected);\n      |                                 ^\n  318 |     });\n  319 |   }\n  320 |\n    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:317:33"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-28T18:58:43.815Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-29d4b-0017-Talking-about-studying/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-29d4b-0017-Talking-about-studying/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-29d4b-0017-Talking-about-studying/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                        "column": 33,
+                        "line": 317
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "963f0d5d1bca2915e267-72c70249c795a1cfca9b",
+              "file": "assignment.spec.js",
+              "line": 288,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0018: Asking to come",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 12,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 6756,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"එන්න පු\u001b[7mළුව\u001b[27mන්ද\"\u001b[39m\nReceived: \u001b[31m\"එන්න පු\u001b[7mලුwඅ\u001b[27mන්ද\"\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"එන්න පු\u001b[7mළුව\u001b[27mන්ද\"\u001b[39m\nReceived: \u001b[31m\"එන්න පු\u001b[7mලුwඅ\u001b[27mන්ද\"\u001b[39m\n    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:317:33",
+                        "location": {
+                          "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                          "column": 33,
+                          "line": 317
+                        },
+                        "snippet": "  315 |\n  316 |       // Verify\n> 317 |       expect(outputText.trim()).toBe(scenario.expected);\n      |                                 ^\n  318 |     });\n  319 |   }\n  320 |"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                            "column": 33,
+                            "line": 317
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"එන්න පු\u001b[7mළුව\u001b[27mන්ද\"\u001b[39m\nReceived: \u001b[31m\"එන්න පු\u001b[7mලුwඅ\u001b[27mන්ද\"\u001b[39m\n\n  315 |\n  316 |       // Verify\n> 317 |       expect(outputText.trim()).toBe(scenario.expected);\n      |                                 ^\n  318 |     });\n  319 |   }\n  320 |\n    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:317:33"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-28T18:58:52.668Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-11a65-Pos-Fun-0018-Asking-to-come/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-11a65-Pos-Fun-0018-Asking-to-come/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-11a65-Pos-Fun-0018-Asking-to-come/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                        "column": 33,
+                        "line": 317
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "963f0d5d1bca2915e267-01d949af06d016a9d96f",
+              "file": "assignment.spec.js",
+              "line": 288,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0019: Talking about weather",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 13,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 8644,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"අද \u001b[7mවැ\u001b[27mස්ස එන\u001b[7mව\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"අද \u001b[7mwඅ\u001b[27mස්ස එන\u001b[7mwඅ\u001b[27m\"\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"අද \u001b[7mවැ\u001b[27mස්ස එන\u001b[7mව\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"අද \u001b[7mwඅ\u001b[27mස්ස එන\u001b[7mwඅ\u001b[27m\"\u001b[39m\n    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:317:33",
+                        "location": {
+                          "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                          "column": 33,
+                          "line": 317
+                        },
+                        "snippet": "  315 |\n  316 |       // Verify\n> 317 |       expect(outputText.trim()).toBe(scenario.expected);\n      |                                 ^\n  318 |     });\n  319 |   }\n  320 |"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                            "column": 33,
+                            "line": 317
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"අද \u001b[7mවැ\u001b[27mස්ස එන\u001b[7mව\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"අද \u001b[7mwඅ\u001b[27mස්ස එන\u001b[7mwඅ\u001b[27m\"\u001b[39m\n\n  315 |\n  316 |       // Verify\n> 317 |       expect(outputText.trim()).toBe(scenario.expected);\n      |                                 ^\n  318 |     });\n  319 |   }\n  320 |\n    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:317:33"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-28T18:59:00.384Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-1ee45--0019-Talking-about-weather/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-1ee45--0019-Talking-about-weather/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-1ee45--0019-Talking-about-weather/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                        "column": 33,
+                        "line": 317
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "963f0d5d1bca2915e267-c4856afe3cc79dab0405",
+              "file": "assignment.spec.js",
+              "line": 288,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0020: Expression of tiredness",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 14,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 8584,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මට හරිම සාරද\u001b[7mයි\u001b[27mයි\"\u001b[39m\nReceived: \u001b[31m\"මට හරිම සාරද\u001b[7mෛ\u001b[27mයි\"\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මට හරිම සාරද\u001b[7mයි\u001b[27mයි\"\u001b[39m\nReceived: \u001b[31m\"මට හරිම සාරද\u001b[7mෛ\u001b[27mයි\"\u001b[39m\n    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:317:33",
+                        "location": {
+                          "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                          "column": 33,
+                          "line": 317
+                        },
+                        "snippet": "  315 |\n  316 |       // Verify\n> 317 |       expect(outputText.trim()).toBe(scenario.expected);\n      |                                 ^\n  318 |     });\n  319 |   }\n  320 |"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                            "column": 33,
+                            "line": 317
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මට හරිම සාරද\u001b[7mයි\u001b[27mයි\"\u001b[39m\nReceived: \u001b[31m\"මට හරිම සාරද\u001b[7mෛ\u001b[27mයි\"\u001b[39m\n\n  315 |\n  316 |       // Verify\n> 317 |       expect(outputText.trim()).toBe(scenario.expected);\n      |                                 ^\n  318 |     });\n  319 |   }\n  320 |\n    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:317:33"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-28T18:59:09.948Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-4c687-020-Expression-of-tiredness/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-4c687-020-Expression-of-tiredness/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-4c687-020-Expression-of-tiredness/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                        "column": 33,
+                        "line": 317
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "963f0d5d1bca2915e267-d64708cd456dcda86497",
+              "file": "assignment.spec.js",
+              "line": 288,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0021: Asking about lunch",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 15,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 11313,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-28T18:59:19.384Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "963f0d5d1bca2915e267-62fa419403ffe67a14eb",
+              "file": "assignment.spec.js",
+              "line": 288,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0022: Simple past tense",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 15,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 10025,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-28T18:59:30.868Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "963f0d5d1bca2915e267-15ce67fa76a298341885",
+              "file": "assignment.spec.js",
+              "line": 288,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0023: Expressing happiness",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 15,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 12842,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මට හරිම සන්ත\u001b[7mෝසය\u001b[27mයි\"\u001b[39m\nReceived: \u001b[31m\"මට හරිම සන්ත\u001b[7mොසෛ\u001b[27mයි\"\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මට හරිම සන්ත\u001b[7mෝසය\u001b[27mයි\"\u001b[39m\nReceived: \u001b[31m\"මට හරිම සන්ත\u001b[7mොසෛ\u001b[27mයි\"\u001b[39m\n    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:317:33",
+                        "location": {
+                          "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                          "column": 33,
+                          "line": 317
+                        },
+                        "snippet": "  315 |\n  316 |       // Verify\n> 317 |       expect(outputText.trim()).toBe(scenario.expected);\n      |                                 ^\n  318 |     });\n  319 |   }\n  320 |"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                            "column": 33,
+                            "line": 317
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මට හරිම සන්ත\u001b[7mෝසය\u001b[27mයි\"\u001b[39m\nReceived: \u001b[31m\"මට හරිම සන්ත\u001b[7mොසෛ\u001b[27mයි\"\u001b[39m\n\n  315 |\n  316 |       // Verify\n> 317 |       expect(outputText.trim()).toBe(scenario.expected);\n      |                                 ^\n  318 |     });\n  319 |   }\n  320 |\n    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:317:33"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-28T18:59:40.904Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-eba49-n-0023-Expressing-happiness/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-eba49-n-0023-Expressing-happiness/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-eba49-n-0023-Expressing-happiness/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                        "column": 33,
+                        "line": 317
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "963f0d5d1bca2915e267-3a7bf56d373599c0d230",
+              "file": "assignment.spec.js",
+              "line": 288,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0024: Asking to wait",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 16,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 9782,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-28T18:59:54.407Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "963f0d5d1bca2915e267-49a496eeaed8fef69d9b",
+              "file": "assignment.spec.js",
+              "line": 288,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0025: Punctuation: Comma usage",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 16,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 12412,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-28T19:00:04.448Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "963f0d5d1bca2915e267-7a115acdd7979b12f27e",
+              "file": "assignment.spec.js",
+              "line": 288,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0026: Numbers mixed with text",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 16,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 8007,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මම 2025 \u001b[7mද\u001b[27mි ගෙදර යන\u001b[7mව\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"මම 2025 \u001b[7mඩ\u001b[27mි ගෙදර යන\u001b[7mwඅ\u001b[27m\"\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මම 2025 \u001b[7mද\u001b[27mි ගෙදර යන\u001b[7mව\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"මම 2025 \u001b[7mඩ\u001b[27mි ගෙදර යන\u001b[7mwඅ\u001b[27m\"\u001b[39m\n    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:317:33",
+                        "location": {
+                          "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                          "column": 33,
+                          "line": 317
+                        },
+                        "snippet": "  315 |\n  316 |       // Verify\n> 317 |       expect(outputText.trim()).toBe(scenario.expected);\n      |                                 ^\n  318 |     });\n  319 |   }\n  320 |"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                            "column": 33,
+                            "line": 317
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මම 2025 \u001b[7mද\u001b[27mි ගෙදර යන\u001b[7mව\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"මම 2025 \u001b[7mඩ\u001b[27mි ගෙදර යන\u001b[7mwඅ\u001b[27m\"\u001b[39m\n\n  315 |\n  316 |       // Verify\n> 317 |       expect(outputText.trim()).toBe(scenario.expected);\n      |                                 ^\n  318 |     });\n  319 |   }\n  320 |\n    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:317:33"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-28T19:00:16.870Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-3f56a-026-Numbers-mixed-with-text/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-3f56a-026-Numbers-mixed-with-text/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-3f56a-026-Numbers-mixed-with-text/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                        "column": 33,
+                        "line": 317
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "963f0d5d1bca2915e267-136bcae9a2a9e9c73f3e",
+              "file": "assignment.spec.js",
+              "line": 288,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0027: English date format",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 17,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 7471,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-28T19:00:25.655Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "963f0d5d1bca2915e267-5a5ca2c96cf251c39245",
+              "file": "assignment.spec.js",
+              "line": 288,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0028: Long sentence (Medium length)",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 17,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 7493,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මම හෙට උද\u001b[7mේ\u001b[27m න\u001b[7mැ\u001b[27mගිටල ගෙදර ගිහිල්ල ආයෙත් එන\u001b[7mව\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"මම හෙට උද\u001b[7mෙ\u001b[27m න\u001b[7mෙ\u001b[27mගිටල ගෙදර ගිහිල්ල ආයෙත් එන\u001b[7mwඅ\u001b[27m\"\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මම හෙට උද\u001b[7mේ\u001b[27m න\u001b[7mැ\u001b[27mගිටල ගෙදර ගිහිල්ල ආයෙත් එන\u001b[7mව\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"මම හෙට උද\u001b[7mෙ\u001b[27m න\u001b[7mෙ\u001b[27mගිටල ගෙදර ගිහිල්ල ආයෙත් එන\u001b[7mwඅ\u001b[27m\"\u001b[39m\n    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:317:33",
+                        "location": {
+                          "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                          "column": 33,
+                          "line": 317
+                        },
+                        "snippet": "  315 |\n  316 |       // Verify\n> 317 |       expect(outputText.trim()).toBe(scenario.expected);\n      |                                 ^\n  318 |     });\n  319 |   }\n  320 |"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                            "column": 33,
+                            "line": 317
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මම හෙට උද\u001b[7mේ\u001b[27m න\u001b[7mැ\u001b[27mගිටල ගෙදර ගිහිල්ල ආයෙත් එන\u001b[7mව\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"මම හෙට උද\u001b[7mෙ\u001b[27m න\u001b[7mෙ\u001b[27mගිටල ගෙදර ගිහිල්ල ආයෙත් එන\u001b[7mwඅ\u001b[27m\"\u001b[39m\n\n  315 |\n  316 |       // Verify\n> 317 |       expect(outputText.trim()).toBe(scenario.expected);\n      |                                 ^\n  318 |     });\n  319 |   }\n  320 |\n    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:317:33"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-28T19:00:33.396Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-f1f7a-ong-sentence-Medium-length-/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-f1f7a-ong-sentence-Medium-length-/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-f1f7a-ong-sentence-Medium-length-/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                        "column": 33,
+                        "line": 317
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "963f0d5d1bca2915e267-916bcaa9a5a742586f74",
+              "file": "assignment.spec.js",
+              "line": 288,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0029: Combined sentences with full stop",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 18,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 15726,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මම යන\u001b[7mව\u001b[27m. ඔය එන්න.\"\u001b[39m\nReceived: \u001b[31m\"මම යන\u001b[7mwඅ\u001b[27m. ඔය එන්න.\"\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මම යන\u001b[7mව\u001b[27m. ඔය එන්න.\"\u001b[39m\nReceived: \u001b[31m\"මම යන\u001b[7mwඅ\u001b[27m. ඔය එන්න.\"\u001b[39m\n    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:317:33",
+                        "location": {
+                          "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                          "column": 33,
+                          "line": 317
+                        },
+                        "snippet": "  315 |\n  316 |       // Verify\n> 317 |       expect(outputText.trim()).toBe(scenario.expected);\n      |                                 ^\n  318 |     });\n  319 |   }\n  320 |"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                            "column": 33,
+                            "line": 317
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මම යන\u001b[7mව\u001b[27m. ඔය එන්න.\"\u001b[39m\nReceived: \u001b[31m\"මම යන\u001b[7mwඅ\u001b[27m. ඔය එන්න.\"\u001b[39m\n\n  315 |\n  316 |       // Verify\n> 317 |       expect(outputText.trim()).toBe(scenario.expected);\n      |                                 ^\n  318 |     });\n  319 |   }\n  320 |\n    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:317:33"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-28T19:00:41.613Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-d63d7-ed-sentences-with-full-stop/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-d63d7-ed-sentences-with-full-stop/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-d63d7-ed-sentences-with-full-stop/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                        "column": 33,
+                        "line": 317
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "963f0d5d1bca2915e267-2578469641a7d1a8f73f",
+              "file": "assignment.spec.js",
+              "line": 288,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0030: Exclamation",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 19,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 9791,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"හරි \u001b[7mෂෝක්\u001b[27m!\"\u001b[39m\nReceived: \u001b[31m\"හරි \u001b[7mshook\u001b[27m!\"\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"හරි \u001b[7mෂෝක්\u001b[27m!\"\u001b[39m\nReceived: \u001b[31m\"හරි \u001b[7mshook\u001b[27m!\"\u001b[39m\n    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:317:33",
+                        "location": {
+                          "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                          "column": 33,
+                          "line": 317
+                        },
+                        "snippet": "  315 |\n  316 |       // Verify\n> 317 |       expect(outputText.trim()).toBe(scenario.expected);\n      |                                 ^\n  318 |     });\n  319 |   }\n  320 |"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                            "column": 33,
+                            "line": 317
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"හරි \u001b[7mෂෝක්\u001b[27m!\"\u001b[39m\nReceived: \u001b[31m\"හරි \u001b[7mshook\u001b[27m!\"\u001b[39m\n\n  315 |\n  316 |       // Verify\n> 317 |       expect(outputText.trim()).toBe(scenario.expected);\n      |                                 ^\n  318 |     });\n  319 |   }\n  320 |\n    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:317:33"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-28T19:00:58.297Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-76533-on-Pos-Fun-0030-Exclamation/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-76533-on-Pos-Fun-0030-Exclamation/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-76533-on-Pos-Fun-0030-Exclamation/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                        "column": 33,
+                        "line": 317
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "963f0d5d1bca2915e267-c5fdb19a096014bcd46d",
+              "file": "assignment.spec.js",
+              "line": 288,
+              "column": 5
+            },
+            {
+              "title": "Neg_Fun_0001: Chat shorthand \"Thx\" should fail to convert meaningfully",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 20,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 8304,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-28T19:01:08.993Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "963f0d5d1bca2915e267-ae1dd750b1515ee1aae9",
+              "file": "assignment.spec.js",
+              "line": 325,
+              "column": 5
+            },
+            {
+              "title": "Neg_Fun_0002: Incorrect stress test with missing spaces",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 20,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6425,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-28T19:01:17.478Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "963f0d5d1bca2915e267-a4050a90ac647c041641",
+              "file": "assignment.spec.js",
+              "line": 325,
+              "column": 5
+            },
+            {
+              "title": "Neg_Fun_0003: Numbers only input",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 20,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 8198,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-28T19:01:23.917Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "963f0d5d1bca2915e267-4126ca95cc0b56c44b2f",
+              "file": "assignment.spec.js",
+              "line": 325,
+              "column": 5
+            },
+            {
+              "title": "Neg_Fun_0004: Special characters only",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 20,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 8267,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-28T19:01:32.128Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "963f0d5d1bca2915e267-468f9e6ebdf2bbf34856",
+              "file": "assignment.spec.js",
+              "line": 325,
+              "column": 5
+            },
+            {
+              "title": "Neg_Fun_0005: Empty spaces only",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 20,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6082,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-28T19:01:40.413Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "963f0d5d1bca2915e267-88608d519659f9f752ad",
+              "file": "assignment.spec.js",
+              "line": 325,
+              "column": 5
+            },
+            {
+              "title": "Neg_Fun_0006: Mixed random characters",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 20,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6980,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-28T19:01:46.501Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "963f0d5d1bca2915e267-a26c2296ad3b86ffa0e8",
+              "file": "assignment.spec.js",
+              "line": 325,
+              "column": 5
+            },
+            {
+              "title": "Neg_Fun_0007: Single character input",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 20,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6098,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-28T19:01:53.489Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "963f0d5d1bca2915e267-17488ea0f34367f08c42",
+              "file": "assignment.spec.js",
+              "line": 325,
+              "column": 5
+            },
+            {
+              "title": "Neg_Fun_0008: All caps input",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 20,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 7919,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-28T19:01:59.601Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "963f0d5d1bca2915e267-08b3903aedc15f3fcbb2",
+              "file": "assignment.spec.js",
+              "line": 325,
+              "column": 5
+            },
+            {
+              "title": "Neg_Fun_0009: Very long text without proper spacing",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 20,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 7670,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මමයන\u001b[7mව\u001b[27mගෙතරගෙදරකොහෙදයන\u001b[7mව\u001b[27mදෙන්\"\u001b[39m\nReceived: \u001b[31m\"මමයන\u001b[7mwඅ\u001b[27mගෙතරගෙදරකොහෙදයන\u001b[7mwඅ\u001b[27mදෙන්\"\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මමයන\u001b[7mව\u001b[27mගෙතරගෙදරකොහෙදයන\u001b[7mව\u001b[27mදෙන්\"\u001b[39m\nReceived: \u001b[31m\"මමයන\u001b[7mwඅ\u001b[27mගෙතරගෙදරකොහෙදයන\u001b[7mwඅ\u001b[27mදෙන්\"\u001b[39m\n    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:352:35",
+                        "location": {
+                          "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                          "column": 35,
+                          "line": 352
+                        },
+                        "snippet": "  350 |\n  351 |         const outputText = await outputBox.textContent();\n> 352 |         expect(outputText.trim()).toBe(scenario.expected);\n      |                                   ^\n  353 |       }\n  354 |     });\n  355 |   }"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                            "column": 35,
+                            "line": 352
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මමයන\u001b[7mව\u001b[27mගෙතරගෙදරකොහෙදයන\u001b[7mව\u001b[27mදෙන්\"\u001b[39m\nReceived: \u001b[31m\"මමයන\u001b[7mwඅ\u001b[27mගෙතරගෙදරකොහෙදයන\u001b[7mwඅ\u001b[27mදෙන්\"\u001b[39m\n\n  350 |\n  351 |         const outputText = await outputBox.textContent();\n> 352 |         expect(outputText.trim()).toBe(scenario.expected);\n      |                                   ^\n  353 |       }\n  354 |     });\n  355 |   }\n    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:352:35"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-28T19:02:07.529Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-6fb47-text-without-proper-spacing/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-6fb47-text-without-proper-spacing/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-6fb47-text-without-proper-spacing/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                        "column": 35,
+                        "line": 352
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "963f0d5d1bca2915e267-d7d69f8bc53713b932e6",
+              "file": "assignment.spec.js",
+              "line": 325,
+              "column": 5
+            },
+            {
+              "title": "Neg_Fun_0010: Random gibberish",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 21,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 6740,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"qw\u001b[7mඑර්තය\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"qw\u001b[7merty\u001b[27m\"\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"qw\u001b[7mඑර්තය\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"qw\u001b[7merty\u001b[27m\"\u001b[39m\n    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:352:35",
+                        "location": {
+                          "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                          "column": 35,
+                          "line": 352
+                        },
+                        "snippet": "  350 |\n  351 |         const outputText = await outputBox.textContent();\n> 352 |         expect(outputText.trim()).toBe(scenario.expected);\n      |                                   ^\n  353 |       }\n  354 |     });\n  355 |   }"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                            "column": 35,
+                            "line": 352
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"qw\u001b[7mඑර්තය\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"qw\u001b[7merty\u001b[27m\"\u001b[39m\n\n  350 |\n  351 |         const outputText = await outputBox.textContent();\n> 352 |         expect(outputText.trim()).toBe(scenario.expected);\n      |                                   ^\n  353 |       }\n  354 |     });\n  355 |   }\n    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:352:35"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-28T19:02:16.237Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-1b975-g-Fun-0010-Random-gibberish/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-1b975-g-Fun-0010-Random-gibberish/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-1b975-g-Fun-0010-Random-gibberish/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                        "column": 35,
+                        "line": 352
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "963f0d5d1bca2915e267-017ae50be03bab5b6152",
+              "file": "assignment.spec.js",
+              "line": 325,
+              "column": 5
+            },
+            {
+              "title": "Neg_Fun_0011: Email address (should not transliterate parts)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 22,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 8165,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-28T19:02:23.995Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "963f0d5d1bca2915e267-ef2bf8f3fce2a9713630",
+              "file": "assignment.spec.js",
+              "line": 325,
+              "column": 5
+            },
+            {
+              "title": "Neg_Fun_0012: URL (should not transliterate well)",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 22,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 6987,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"www.google.c\u001b[7mඔම්\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"www.google.c\u001b[7mom\u001b[27m\"\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"www.google.c\u001b[7mඔම්\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"www.google.c\u001b[7mom\u001b[27m\"\u001b[39m\n    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:352:35",
+                        "location": {
+                          "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                          "column": 35,
+                          "line": 352
+                        },
+                        "snippet": "  350 |\n  351 |         const outputText = await outputBox.textContent();\n> 352 |         expect(outputText.trim()).toBe(scenario.expected);\n      |                                   ^\n  353 |       }\n  354 |     });\n  355 |   }"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                            "column": 35,
+                            "line": 352
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"www.google.c\u001b[7mඔම්\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"www.google.c\u001b[7mom\u001b[27m\"\u001b[39m\n\n  350 |\n  351 |         const outputText = await outputBox.textContent();\n> 352 |         expect(outputText.trim()).toBe(scenario.expected);\n      |                                   ^\n  353 |       }\n  354 |     });\n  355 |   }\n    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:352:35"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-28T19:02:32.359Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-304b1-uld-not-transliterate-well-/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-304b1-uld-not-transliterate-well-/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-304b1-uld-not-transliterate-well-/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                        "column": 35,
+                        "line": 352
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "963f0d5d1bca2915e267-c4377312ea18d858a3e5",
+              "file": "assignment.spec.js",
+              "line": 325,
+              "column": 5
+            },
+            {
+              "title": "Pos_UI_0001: Real-time output update behavior",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 23,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 9552,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මම යන\u001b[7mව\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"මම යන\u001b[7mwඅ\u001b[27m\"\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මම යන\u001b[7mව\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"මම යන\u001b[7mwඅ\u001b[27m\"\u001b[39m\n    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:391:31",
+                        "location": {
+                          "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                          "column": 31,
+                          "line": 391
+                        },
+                        "snippet": "  389 |\n  390 |     outputText = await outputBox.textContent();\n> 391 |     expect(outputText.trim()).toBe('මම යනව');\n      |                               ^\n  392 |\n  393 |   });\n  394 |"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                            "column": 31,
+                            "line": 391
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මම යන\u001b[7mව\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"මම යන\u001b[7mwඅ\u001b[27m\"\u001b[39m\n\n  389 |\n  390 |     outputText = await outputBox.textContent();\n> 391 |     expect(outputText.trim()).toBe('මම යනව');\n      |                               ^\n  392 |\n  393 |   });\n  394 |\n    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:391:31"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-28T19:02:40.066Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-1ec0e-time-output-update-behavior/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-1ec0e-time-output-update-behavior/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-1ec0e-time-output-update-behavior/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                        "column": 31,
+                        "line": 391
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "963f0d5d1bca2915e267-eeda37754920dcc18586",
+              "file": "assignment.spec.js",
+              "line": 360,
+              "column": 3
+            },
+            {
+              "title": "Pos_UI_0002: Verify layout responsiveness",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 24,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4090,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-28T19:02:50.435Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "963f0d5d1bca2915e267-2a2433ce3c1f06c78ddd",
+              "file": "assignment.spec.js",
+              "line": 396,
+              "column": 3
+            },
+            {
+              "title": "Pos_UI_0003: Verify input area cleared on reload",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 24,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3660,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-28T19:02:54.696Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "963f0d5d1bca2915e267-503e7ce0bfcf3271dcdc",
+              "file": "assignment.spec.js",
+              "line": 402,
+              "column": 3
+            },
+            {
+              "title": "Pos_UI_0004: Verify placeholder text",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 24,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2343,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-28T19:02:58.365Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "963f0d5d1bca2915e267-2cdd9ae9f36d1da3aa8b",
+              "file": "assignment.spec.js",
+              "line": 410,
+              "column": 3
+            },
+            {
+              "title": "Pos_UI_0005: Large input text area expansion",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 24,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 8017,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveCSS\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  getByRole('textbox', { name: 'Input Your Singlish Text Here.' })\nExpected: \u001b[32m\"none\"\u001b[39m\nReceived: \u001b[31m\"vertical\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveCSS\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Input Your Singlish Text Here.' })\u001b[22m\n\u001b[2m    9 × locator resolved to <textarea placeholder=\"Input Your Singlish Text Here.\" class=\"w-full h-80 resize-y rounded-lg ring-1 ring-slate-300 p-3\"></textarea>\u001b[22m\n\u001b[2m      - unexpected value \"vertical\"\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveCSS\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  getByRole('textbox', { name: 'Input Your Singlish Text Here.' })\nExpected: \u001b[32m\"none\"\u001b[39m\nReceived: \u001b[31m\"vertical\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveCSS\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Input Your Singlish Text Here.' })\u001b[22m\n\u001b[2m    9 × locator resolved to <textarea placeholder=\"Input Your Singlish Text Here.\" class=\"w-full h-80 resize-y rounded-lg ring-1 ring-slate-300 p-3\"></textarea>\u001b[22m\n\u001b[2m      - unexpected value \"vertical\"\u001b[22m\n\n    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:417:28",
+                        "location": {
+                          "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                          "column": 28,
+                          "line": 417
+                        },
+                        "snippet": "  415 |   test('Pos_UI_0005: Large input text area expansion', async ({ page }) => {\n  416 |     const inputBox = page.getByRole('textbox', { name: 'Input Your Singlish Text Here.' });\n> 417 |     await expect(inputBox).toHaveCSS('resize', 'none');\n      |                            ^\n  418 |     await inputBox.fill('Line 1\\nLine 2\\nLine 3');\n  419 |     const val = await inputBox.inputValue();\n  420 |     expect(val).toContain('Line 3');"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                            "column": 28,
+                            "line": 417
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveCSS\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  getByRole('textbox', { name: 'Input Your Singlish Text Here.' })\nExpected: \u001b[32m\"none\"\u001b[39m\nReceived: \u001b[31m\"vertical\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveCSS\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Input Your Singlish Text Here.' })\u001b[22m\n\u001b[2m    9 × locator resolved to <textarea placeholder=\"Input Your Singlish Text Here.\" class=\"w-full h-80 resize-y rounded-lg ring-1 ring-slate-300 p-3\"></textarea>\u001b[22m\n\u001b[2m      - unexpected value \"vertical\"\u001b[22m\n\n\n  415 |   test('Pos_UI_0005: Large input text area expansion', async ({ page }) => {\n  416 |     const inputBox = page.getByRole('textbox', { name: 'Input Your Singlish Text Here.' });\n> 417 |     await expect(inputBox).toHaveCSS('resize', 'none');\n      |                            ^\n  418 |     await inputBox.fill('Line 1\\nLine 2\\nLine 3');\n  419 |     const val = await inputBox.inputValue();\n  420 |     expect(val).toContain('Line 3');\n    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:417:28"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-28T19:03:00.717Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-da4bd-e-input-text-area-expansion/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-da4bd-e-input-text-area-expansion/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-da4bd-e-input-text-area-expansion/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                        "column": 28,
+                        "line": 417
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "963f0d5d1bca2915e267-f2616ae3fd3640840a69",
+              "file": "assignment.spec.js",
+              "line": 415,
+              "column": 3
+            },
+            {
+              "title": "Pos_UI_0006: Clipboard copy interactions",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 25,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3895,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-28T19:03:09.198Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "963f0d5d1bca2915e267-519e4f19f4c07bc8da64",
+              "file": "assignment.spec.js",
+              "line": 423,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-01-28T18:55:44.529Z",
+    "duration": 448778.51300000004,
+    "expected": 23,
+    "skipped": 0,
+    "unexpected": 25,
+    "flaky": 0
+  }
+}

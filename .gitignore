@@ -1,8 +1,33 @@
+# Node modules
+node_modules/
 
 # Playwright
-node_modules/
 /test-results/
 /playwright-report/
+/playwright/.cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment variables
+.env
+.env.local
+
+# Test artifacts
+screenshots/
+videos/
+traces/
 /blob-report/
 /playwright/.cache/
 /playwright/.auth/

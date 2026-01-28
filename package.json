@@ -1,11 +1,18 @@
 {
   "name": "it23312258-itpm",
   "version": "1.0.0",
-  "description": "ITPM 1st Assignment",
+  "description": "ITPM Assignment 1 - Singlish to Sinhala Translation Testing",
   "main": "index.js",
-  "scripts": {},
-  "keywords": [],
-  "author": "",
+  "type": "module",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:watch": "playwright test --watch",
+    "report": "playwright show-report"
+  },
+  "keywords": ["playwright", "testing", "singlish", "sinhala", "translation"],
+  "author": "IT23312258",
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.58.0",
