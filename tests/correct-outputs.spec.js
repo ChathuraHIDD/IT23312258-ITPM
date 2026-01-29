@@ -1,5 +1,5 @@
- // tests/assignment1.spec.js
-const { test, expect } = require('@playwright/test');
+// tests/assignment1.spec.js
+import { test, expect } from '@playwright/test';
 
 const TARGET_URL = 'https://www.swifttranslator.com/';
 
@@ -237,20 +237,20 @@ test.describe('IT3040 Assignment 1 - SwiftTranslator Automation', () => {
   // -------------------------------------------------------------------------
   for (const scenario of positiveScenarios) {
     test(`${scenario.id}: ${scenario.description}`, async ({ page }) => {
-      
+
       // Input field
       const inputBox = page.getByRole('textbox', { name: 'Input Your Singlish Text Here.' });
-      
+
       // Output field
       const outputBox = page.locator('.w-full.h-80.p-3.rounded-lg.ring-1.ring-slate-300.whitespace-pre-wrap');
 
       // Clear input field first
       await inputBox.clear();
       await page.waitForTimeout(500);
-      
+
       // Enter text
       await inputBox.fill(scenario.input);
-      
+
       // Wait for the output to contain some text (not empty)
       await page.waitForFunction(
         (selector) => {
@@ -260,10 +260,10 @@ test.describe('IT3040 Assignment 1 - SwiftTranslator Automation', () => {
         '.w-full.h-80.p-3.rounded-lg.ring-1.ring-slate-300.whitespace-pre-wrap',
         { timeout: 10000 }
       );
-      
+
       // Get the text content of output
       const outputText = await outputBox.textContent();
-      
+
       // Verify
       expect(outputText.trim()).toBe(scenario.expected);
     });
@@ -274,15 +274,15 @@ test.describe('IT3040 Assignment 1 - SwiftTranslator Automation', () => {
   // -------------------------------------------------------------------------
   for (const scenario of negativeScenarios) {
     test(`${scenario.id}: ${scenario.description}`, async ({ page }) => {
-      
+
       const inputBox = page.getByRole('textbox', { name: 'Input Your Singlish Text Here.' });
       const outputBox = page.locator('.w-full.h-80.p-3.rounded-lg.ring-1.ring-slate-300.whitespace-pre-wrap');
 
       await inputBox.clear();
       await page.waitForTimeout(500);
-      
+
       await inputBox.fill(scenario.input);
-      
+
       // For empty/whitespace inputs, the output might stay empty
       if (scenario.input.trim() === '') {
         await page.waitForTimeout(2000);
@@ -298,7 +298,7 @@ test.describe('IT3040 Assignment 1 - SwiftTranslator Automation', () => {
           '.w-full.h-80.p-3.rounded-lg.ring-1.ring-slate-300.whitespace-pre-wrap',
           { timeout: 10000 }
         );
-        
+
         const outputText = await outputBox.textContent();
         expect(outputText.trim()).toBe(scenario.expected);
       }
@@ -309,16 +309,16 @@ test.describe('IT3040 Assignment 1 - SwiftTranslator Automation', () => {
   // 3. UI TEST SCENARIO (1 scenario)
   // -------------------------------------------------------------------------
   test('Pos_UI_0001: Real-time output update behavior', async ({ page }) => {
-    
+
     const inputBox = page.getByRole('textbox', { name: 'Input Your Singlish Text Here.' });
     const outputBox = page.locator('.w-full.h-80.p-3.rounded-lg.ring-1.ring-slate-300.whitespace-pre-wrap');
 
     await inputBox.clear();
     await page.waitForTimeout(500);
-    
+
     // Type "mama"
     await inputBox.pressSequentially('mama', { delay: 100 });
-    
+
     // Wait for output to appear
     await page.waitForFunction(
       (selector) => {
@@ -328,16 +328,16 @@ test.describe('IT3040 Assignment 1 - SwiftTranslator Automation', () => {
       '.w-full.h-80.p-3.rounded-lg.ring-1.ring-slate-300.whitespace-pre-wrap',
       { timeout: 5000 }
     );
-    
+
     let outputText = await outputBox.textContent();
     expect(outputText).toContain('මම');
 
     // Continue typing " yanawa"
     await inputBox.pressSequentially(' yanawa', { delay: 100 });
-    
+
     // Wait for updated output
     await page.waitForTimeout(2000);
-    
+
     outputText = await outputBox.textContent();
     expect(outputText.trim()).toBe('මම යනwඅ');
   });
