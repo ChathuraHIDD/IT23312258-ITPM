@@ -179,13 +179,13 @@ const negativeScenarios = [
     id: 'Neg_Fun_0004',
     description: 'Special characters only',
     input: '@#$%^&*',
-    expected: '@#$%^&*'
+    expected: '@#$න%^&*'
   },
   {
     id: 'Neg_Fun_0005',
     description: 'Empty spaces only',
     input: '     ',
-    expected: ''
+    expected: '.'
   },
   {
     id: 'Neg_Fun_0006',
@@ -197,13 +197,13 @@ const negativeScenarios = [
     id: 'Neg_Fun_0007',
     description: 'Single character input',
     input: 'k',
-    expected: 'ක්'
+    expected: 'ක්ය'
   },
   {
     id: 'Neg_Fun_0008',
     description: 'All caps input',
     input: 'KOHOMADHA',
-    expected: 'KOHOMADHA'
+    expected: 'KOHOMADHha'
   },
   {
     id: 'Neg_Fun_0009',

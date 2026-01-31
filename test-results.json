@@ -94,7 +94,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 15224,
+                      "duration": 15203,
                       "error": {
                         "message": "TimeoutError: page.waitForFunction: Timeout 10000ms exceeded.",
                         "stack": "TimeoutError: page.waitForFunction: Timeout 10000ms exceeded.\n    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:255:18",
@@ -118,7 +118,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-31T07:22:35.113Z",
+                      "startTime": "2026-01-31T07:45:33.512Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -168,12 +168,12 @@
                       "workerIndex": 1,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 7876,
+                      "duration": 9519,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-31T07:22:51.683Z",
+                      "startTime": "2026-01-31T07:45:49.927Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -202,12 +202,12 @@
                       "workerIndex": 1,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 6631,
+                      "duration": 10445,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-31T07:22:59.799Z",
+                      "startTime": "2026-01-31T07:45:59.686Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -222,7 +222,7 @@
             },
             {
               "title": "Pos_Fun_0004: Morning greeting",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -235,58 +235,18 @@
                     {
                       "workerIndex": 1,
                       "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 14114,
-                      "error": {
-                        "message": "TimeoutError: page.waitForFunction: Timeout 10000ms exceeded.",
-                        "stack": "TimeoutError: page.waitForFunction: Timeout 10000ms exceeded.\n    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:255:18",
-                        "location": {
-                          "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
-                          "column": 18,
-                          "line": 255
-                        },
-                        "snippet": "\u001b[0m \u001b[90m 253 |\u001b[39m\n \u001b[90m 254 |\u001b[39m       \u001b[90m// Wait for the output to contain some text (not empty)\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 255 |\u001b[39m       \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForFunction(\n \u001b[90m     |\u001b[39m                  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 256 |\u001b[39m         (selector) \u001b[33m=>\u001b[39m {\n \u001b[90m 257 |\u001b[39m           \u001b[36mconst\u001b[39m element \u001b[33m=\u001b[39m document\u001b[33m.\u001b[39mquerySelector(selector)\u001b[33m;\u001b[39m\n \u001b[90m 258 |\u001b[39m           \u001b[36mreturn\u001b[39m element \u001b[33m&&\u001b[39m element\u001b[33m.\u001b[39mtextContent\u001b[33m.\u001b[39mtrim()\u001b[33m.\u001b[39mlength \u001b[33m>\u001b[39m \u001b[35m0\u001b[39m\u001b[33m;\u001b[39m\u001b[0m"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
-                            "column": 18,
-                            "line": 255
-                          },
-                          "message": "TimeoutError: page.waitForFunction: Timeout 10000ms exceeded.\n\n\u001b[0m \u001b[90m 253 |\u001b[39m\n \u001b[90m 254 |\u001b[39m       \u001b[90m// Wait for the output to contain some text (not empty)\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 255 |\u001b[39m       \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForFunction(\n \u001b[90m     |\u001b[39m                  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 256 |\u001b[39m         (selector) \u001b[33m=>\u001b[39m {\n \u001b[90m 257 |\u001b[39m           \u001b[36mconst\u001b[39m element \u001b[33m=\u001b[39m document\u001b[33m.\u001b[39mquerySelector(selector)\u001b[33m;\u001b[39m\n \u001b[90m 258 |\u001b[39m           \u001b[36mreturn\u001b[39m element \u001b[33m&&\u001b[39m element\u001b[33m.\u001b[39mtextContent\u001b[33m.\u001b[39mtrim()\u001b[33m.\u001b[39mlength \u001b[33m>\u001b[39m \u001b[35m0\u001b[39m\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:255:18\u001b[22m"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 6164,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-31T07:23:06.439Z",
+                      "startTime": "2026-01-31T07:46:10.138Z",
                       "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-67359-s-Fun-0004-Morning-greeting/test-failed-1.png"
-                        },
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-67359-s-Fun-0004-Morning-greeting/video.webm"
-                        },
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-67359-s-Fun-0004-Morning-greeting/error-context.md"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
-                        "column": 18,
-                        "line": 255
-                      }
+                      "attachments": []
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "963f0d5d1bca2915e267-d3dce3759fedb6787a4c",
@@ -307,15 +267,15 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 2,
+                      "workerIndex": 1,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 10968,
+                      "duration": 6033,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-31T07:23:21.343Z",
+                      "startTime": "2026-01-31T07:46:16.310Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -341,10 +301,10 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 2,
+                      "workerIndex": 1,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 6605,
+                      "duration": 5933,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"බොහ\u001b[7mො\u001b[27mම ඉස්තුති\"\u001b[39m\nReceived: \u001b[31m\"බොහ\u001b[7mෝ\u001b[27mම ඉස්තුති\"\u001b[39m",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"බොහ\u001b[7mො\u001b[27mම ඉස්තුති\"\u001b[39m\nReceived: \u001b[31m\"බොහ\u001b[7mෝ\u001b[27mම ඉස්තුති\"\u001b[39m\n    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:268:33",
@@ -368,7 +328,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-31T07:23:32.600Z",
+                      "startTime": "2026-01-31T07:46:22.351Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -415,15 +375,15 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 3,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 8463,
+                      "duration": 7769,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-31T07:23:39.887Z",
+                      "startTime": "2026-01-31T07:46:29.064Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -449,15 +409,15 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 3,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 7659,
+                      "duration": 6329,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-31T07:23:48.572Z",
+                      "startTime": "2026-01-31T07:46:37.144Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -483,15 +443,15 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 3,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 7652,
+                      "duration": 6218,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-31T07:23:56.239Z",
+                      "startTime": "2026-01-31T07:46:43.484Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -506,7 +466,7 @@
             },
             {
               "title": "Pos_Fun_0010: Farewell phrase",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -517,60 +477,20 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 3,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 14023,
-                      "error": {
-                        "message": "TimeoutError: page.waitForFunction: Timeout 10000ms exceeded.",
-                        "stack": "TimeoutError: page.waitForFunction: Timeout 10000ms exceeded.\n    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:255:18",
-                        "location": {
-                          "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
-                          "column": 18,
-                          "line": 255
-                        },
-                        "snippet": "\u001b[0m \u001b[90m 253 |\u001b[39m\n \u001b[90m 254 |\u001b[39m       \u001b[90m// Wait for the output to contain some text (not empty)\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 255 |\u001b[39m       \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForFunction(\n \u001b[90m     |\u001b[39m                  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 256 |\u001b[39m         (selector) \u001b[33m=>\u001b[39m {\n \u001b[90m 257 |\u001b[39m           \u001b[36mconst\u001b[39m element \u001b[33m=\u001b[39m document\u001b[33m.\u001b[39mquerySelector(selector)\u001b[33m;\u001b[39m\n \u001b[90m 258 |\u001b[39m           \u001b[36mreturn\u001b[39m element \u001b[33m&&\u001b[39m element\u001b[33m.\u001b[39mtextContent\u001b[33m.\u001b[39mtrim()\u001b[33m.\u001b[39mlength \u001b[33m>\u001b[39m \u001b[35m0\u001b[39m\u001b[33m;\u001b[39m\u001b[0m"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
-                            "column": 18,
-                            "line": 255
-                          },
-                          "message": "TimeoutError: page.waitForFunction: Timeout 10000ms exceeded.\n\n\u001b[0m \u001b[90m 253 |\u001b[39m\n \u001b[90m 254 |\u001b[39m       \u001b[90m// Wait for the output to contain some text (not empty)\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 255 |\u001b[39m       \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForFunction(\n \u001b[90m     |\u001b[39m                  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 256 |\u001b[39m         (selector) \u001b[33m=>\u001b[39m {\n \u001b[90m 257 |\u001b[39m           \u001b[36mconst\u001b[39m element \u001b[33m=\u001b[39m document\u001b[33m.\u001b[39mquerySelector(selector)\u001b[33m;\u001b[39m\n \u001b[90m 258 |\u001b[39m           \u001b[36mreturn\u001b[39m element \u001b[33m&&\u001b[39m element\u001b[33m.\u001b[39mtextContent\u001b[33m.\u001b[39mtrim()\u001b[33m.\u001b[39mlength \u001b[33m>\u001b[39m \u001b[35m0\u001b[39m\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:255:18\u001b[22m"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 6036,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-31T07:24:03.913Z",
+                      "startTime": "2026-01-31T07:46:49.716Z",
                       "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-1496c-os-Fun-0010-Farewell-phrase/test-failed-1.png"
-                        },
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-1496c-os-Fun-0010-Farewell-phrase/video.webm"
-                        },
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-1496c-os-Fun-0010-Farewell-phrase/error-context.md"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
-                        "column": 18,
-                        "line": 255
-                      }
+                      "attachments": []
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "963f0d5d1bca2915e267-f72a979ed0452771f666",
@@ -591,15 +511,15 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 8271,
+                      "duration": 6114,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-31T07:24:18.620Z",
+                      "startTime": "2026-01-31T07:46:55.762Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -625,15 +545,15 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 7929,
+                      "duration": 7218,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-31T07:24:27.198Z",
+                      "startTime": "2026-01-31T07:47:01.884Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -659,15 +579,15 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 6437,
+                      "duration": 7189,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-31T07:24:35.142Z",
+                      "startTime": "2026-01-31T07:47:09.117Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -693,15 +613,15 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 5991,
+                      "duration": 5746,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-31T07:24:41.587Z",
+                      "startTime": "2026-01-31T07:47:16.314Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -716,7 +636,7 @@
             },
             {
               "title": "Pos_Fun_0015: Affirmative response",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -727,60 +647,20 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 14112,
-                      "error": {
-                        "message": "TimeoutError: page.waitForFunction: Timeout 10000ms exceeded.",
-                        "stack": "TimeoutError: page.waitForFunction: Timeout 10000ms exceeded.\n    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:255:18",
-                        "location": {
-                          "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
-                          "column": 18,
-                          "line": 255
-                        },
-                        "snippet": "\u001b[0m \u001b[90m 253 |\u001b[39m\n \u001b[90m 254 |\u001b[39m       \u001b[90m// Wait for the output to contain some text (not empty)\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 255 |\u001b[39m       \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForFunction(\n \u001b[90m     |\u001b[39m                  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 256 |\u001b[39m         (selector) \u001b[33m=>\u001b[39m {\n \u001b[90m 257 |\u001b[39m           \u001b[36mconst\u001b[39m element \u001b[33m=\u001b[39m document\u001b[33m.\u001b[39mquerySelector(selector)\u001b[33m;\u001b[39m\n \u001b[90m 258 |\u001b[39m           \u001b[36mreturn\u001b[39m element \u001b[33m&&\u001b[39m element\u001b[33m.\u001b[39mtextContent\u001b[33m.\u001b[39mtrim()\u001b[33m.\u001b[39mlength \u001b[33m>\u001b[39m \u001b[35m0\u001b[39m\u001b[33m;\u001b[39m\u001b[0m"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
-                            "column": 18,
-                            "line": 255
-                          },
-                          "message": "TimeoutError: page.waitForFunction: Timeout 10000ms exceeded.\n\n\u001b[0m \u001b[90m 253 |\u001b[39m\n \u001b[90m 254 |\u001b[39m       \u001b[90m// Wait for the output to contain some text (not empty)\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 255 |\u001b[39m       \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForFunction(\n \u001b[90m     |\u001b[39m                  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 256 |\u001b[39m         (selector) \u001b[33m=>\u001b[39m {\n \u001b[90m 257 |\u001b[39m           \u001b[36mconst\u001b[39m element \u001b[33m=\u001b[39m document\u001b[33m.\u001b[39mquerySelector(selector)\u001b[33m;\u001b[39m\n \u001b[90m 258 |\u001b[39m           \u001b[36mreturn\u001b[39m element \u001b[33m&&\u001b[39m element\u001b[33m.\u001b[39mtextContent\u001b[33m.\u001b[39mtrim()\u001b[33m.\u001b[39mlength \u001b[33m>\u001b[39m \u001b[35m0\u001b[39m\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:255:18\u001b[22m"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 5328,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-31T07:24:47.589Z",
+                      "startTime": "2026-01-31T07:47:22.070Z",
                       "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-75edf-n-0015-Affirmative-response/test-failed-1.png"
-                        },
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-75edf-n-0015-Affirmative-response/video.webm"
-                        },
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-75edf-n-0015-Affirmative-response/error-context.md"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
-                        "column": 18,
-                        "line": 255
-                      }
+                      "attachments": []
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "963f0d5d1bca2915e267-cdf4ae88bac468f8d1be",
@@ -801,15 +681,15 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 5,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 7938,
+                      "duration": 6124,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-31T07:25:02.412Z",
+                      "startTime": "2026-01-31T07:47:27.404Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -835,15 +715,15 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 5,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 7058,
+                      "duration": 6377,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-31T07:25:10.653Z",
+                      "startTime": "2026-01-31T07:47:33.534Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -869,15 +749,15 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 5,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 6144,
+                      "duration": 5910,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-31T07:25:17.726Z",
+                      "startTime": "2026-01-31T07:47:39.919Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -903,15 +783,15 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 5,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 6675,
+                      "duration": 6352,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-31T07:25:23.881Z",
+                      "startTime": "2026-01-31T07:47:45.837Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -937,15 +817,15 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 5,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 6376,
+                      "duration": 6442,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-31T07:25:30.567Z",
+                      "startTime": "2026-01-31T07:47:52.196Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -971,15 +851,15 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 5,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 11758,
+                      "duration": 6304,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-31T07:25:36.954Z",
+                      "startTime": "2026-01-31T07:47:58.652Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1005,15 +885,15 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 5,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 6090,
+                      "duration": 6287,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-31T07:25:48.723Z",
+                      "startTime": "2026-01-31T07:48:04.962Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1039,15 +919,15 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 5,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 6019,
+                      "duration": 5738,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-31T07:25:54.820Z",
+                      "startTime": "2026-01-31T07:48:11.255Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1073,15 +953,15 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 5,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 7337,
+                      "duration": 6868,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-31T07:26:00.849Z",
+                      "startTime": "2026-01-31T07:48:17.002Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1107,13 +987,13 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 5,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 5779,
+                      "duration": 10700,
                       "error": {
-                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"ථx\"\u001b[39m\nReceived: \u001b[31m\"ථx\u001b[7mx\u001b[27m\"\u001b[39m",
-                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"ථx\"\u001b[39m\nReceived: \u001b[31m\"ථx\u001b[7mx\u001b[27m\"\u001b[39m\n    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:303:35",
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"තෑන්ක්ස්\"\u001b[39m\nReceived: \u001b[31m\"ථx\"\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"තෑන්ක්ස්\"\u001b[39m\nReceived: \u001b[31m\"ථx\"\u001b[39m\n    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:303:35",
                         "location": {
                           "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
                           "column": 35,
@@ -1128,13 +1008,13 @@
                             "column": 35,
                             "line": 303
                           },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"ථx\"\u001b[39m\nReceived: \u001b[31m\"ථx\u001b[7mx\u001b[27m\"\u001b[39m\n\n\u001b[0m \u001b[90m 301 |\u001b[39m\n \u001b[90m 302 |\u001b[39m         \u001b[36mconst\u001b[39m outputText \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m outputBox\u001b[33m.\u001b[39mtextContent()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 303 |\u001b[39m         expect(outputText\u001b[33m.\u001b[39mtrim())\u001b[33m.\u001b[39mtoBe(scenario\u001b[33m.\u001b[39mexpected)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 304 |\u001b[39m       }\n \u001b[90m 305 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 306 |\u001b[39m   }\u001b[0m\n\u001b[2m    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:303:35\u001b[22m"
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"තෑන්ක්ස්\"\u001b[39m\nReceived: \u001b[31m\"ථx\"\u001b[39m\n\n\u001b[0m \u001b[90m 301 |\u001b[39m\n \u001b[90m 302 |\u001b[39m         \u001b[36mconst\u001b[39m outputText \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m outputBox\u001b[33m.\u001b[39mtextContent()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 303 |\u001b[39m         expect(outputText\u001b[33m.\u001b[39mtrim())\u001b[33m.\u001b[39mtoBe(scenario\u001b[33m.\u001b[39mexpected)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 304 |\u001b[39m       }\n \u001b[90m 305 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 306 |\u001b[39m   }\u001b[0m\n\u001b[2m    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:303:35\u001b[22m"
                         }
                       ],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-31T07:26:08.195Z",
+                      "startTime": "2026-01-31T07:48:23.884Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -1170,7 +1050,7 @@
             },
             {
               "title": "Neg_Fun_0002: Incorrect stress test with missing spaces",
-              "ok": true,
+              "ok": false,
               "tags": [],
               "tests": [
                 {
@@ -1181,20 +1061,60 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 6,
+                      "workerIndex": 3,
                       "parallelIndex": 0,
-                      "status": "passed",
-                      "duration": 8397,
-                      "errors": [],
+                      "status": "failed",
+                      "duration": 7602,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මම\u001b[7m \u001b[27mගෙදර\u001b[7m \u001b[27mයනවා\"\u001b[39m\nReceived: \u001b[31m\"මමගෙදරයනවා\"\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මම\u001b[7m \u001b[27mගෙදර\u001b[7m \u001b[27mයනවා\"\u001b[39m\nReceived: \u001b[31m\"මමගෙදරයනවා\"\u001b[39m\n    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:303:35",
+                        "location": {
+                          "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                          "column": 35,
+                          "line": 303
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 301 |\u001b[39m\n \u001b[90m 302 |\u001b[39m         \u001b[36mconst\u001b[39m outputText \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m outputBox\u001b[33m.\u001b[39mtextContent()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 303 |\u001b[39m         expect(outputText\u001b[33m.\u001b[39mtrim())\u001b[33m.\u001b[39mtoBe(scenario\u001b[33m.\u001b[39mexpected)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 304 |\u001b[39m       }\n \u001b[90m 305 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 306 |\u001b[39m   }\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                            "column": 35,
+                            "line": 303
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මම\u001b[7m \u001b[27mගෙදර\u001b[7m \u001b[27mයනවා\"\u001b[39m\nReceived: \u001b[31m\"මමගෙදරයනවා\"\u001b[39m\n\n\u001b[0m \u001b[90m 301 |\u001b[39m\n \u001b[90m 302 |\u001b[39m         \u001b[36mconst\u001b[39m outputText \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m outputBox\u001b[33m.\u001b[39mtextContent()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 303 |\u001b[39m         expect(outputText\u001b[33m.\u001b[39mtrim())\u001b[33m.\u001b[39mtoBe(scenario\u001b[33m.\u001b[39mexpected)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 304 |\u001b[39m       }\n \u001b[90m 305 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 306 |\u001b[39m   }\u001b[0m\n\u001b[2m    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:303:35\u001b[22m"
+                        }
+                      ],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-31T07:26:14.762Z",
+                      "startTime": "2026-01-31T07:48:35.348Z",
                       "annotations": [],
-                      "attachments": []
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-7b3d2-ss-test-with-missing-spaces/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-7b3d2-ss-test-with-missing-spaces/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-7b3d2-ss-test-with-missing-spaces/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                        "column": 35,
+                        "line": 303
+                      }
                     }
                   ],
-                  "status": "expected"
+                  "status": "unexpected"
                 }
               ],
               "id": "963f0d5d1bca2915e267-a4050a90ac647c041641",
@@ -1203,8 +1123,8 @@
               "column": 5
             },
             {
-              "title": "Neg_Fun_0003: Numbers only input",
-              "ok": true,
+              "title": "Neg_Fun_0003: Slang and colloquial phrasing",
+              "ok": false,
               "tags": [],
               "tests": [
                 {
@@ -1215,23 +1135,63 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 6,
+                      "workerIndex": 4,
                       "parallelIndex": 0,
-                      "status": "passed",
-                      "duration": 6663,
-                      "errors": [],
+                      "status": "failed",
+                      "duration": 6709,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"\u001b[7mඅඩෝ ඒ\u001b[27mක මරු මච\u001b[7mං\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7mado එ\u001b[27mක මරු මච\u001b[7mන්\u001b[27m\"\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"\u001b[7mඅඩෝ ඒ\u001b[27mක මරු මච\u001b[7mං\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7mado එ\u001b[27mක මරු මච\u001b[7mන්\u001b[27m\"\u001b[39m\n    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:303:35",
+                        "location": {
+                          "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                          "column": 35,
+                          "line": 303
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 301 |\u001b[39m\n \u001b[90m 302 |\u001b[39m         \u001b[36mconst\u001b[39m outputText \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m outputBox\u001b[33m.\u001b[39mtextContent()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 303 |\u001b[39m         expect(outputText\u001b[33m.\u001b[39mtrim())\u001b[33m.\u001b[39mtoBe(scenario\u001b[33m.\u001b[39mexpected)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 304 |\u001b[39m       }\n \u001b[90m 305 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 306 |\u001b[39m   }\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                            "column": 35,
+                            "line": 303
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"\u001b[7mඅඩෝ ඒ\u001b[27mක මරු මච\u001b[7mං\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7mado එ\u001b[27mක මරු මච\u001b[7mන්\u001b[27m\"\u001b[39m\n\n\u001b[0m \u001b[90m 301 |\u001b[39m\n \u001b[90m 302 |\u001b[39m         \u001b[36mconst\u001b[39m outputText \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m outputBox\u001b[33m.\u001b[39mtextContent()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 303 |\u001b[39m         expect(outputText\u001b[33m.\u001b[39mtrim())\u001b[33m.\u001b[39mtoBe(scenario\u001b[33m.\u001b[39mexpected)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 304 |\u001b[39m       }\n \u001b[90m 305 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 306 |\u001b[39m   }\u001b[0m\n\u001b[2m    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:303:35\u001b[22m"
+                        }
+                      ],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-31T07:26:23.460Z",
+                      "startTime": "2026-01-31T07:48:43.859Z",
                       "annotations": [],
-                      "attachments": []
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-bc7bf-ang-and-colloquial-phrasing/test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-bc7bf-ang-and-colloquial-phrasing/video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-bc7bf-ang-and-colloquial-phrasing/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
+                        "column": 35,
+                        "line": 303
+                      }
                     }
                   ],
-                  "status": "expected"
+                  "status": "unexpected"
                 }
               ],
-              "id": "963f0d5d1bca2915e267-4126ca95cc0b56c44b2f",
+              "id": "963f0d5d1bca2915e267-1ad4051e3565f3895633",
               "file": "assignment.spec.js",
               "line": 276,
               "column": 5
@@ -1249,15 +1209,15 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 6,
+                      "workerIndex": 5,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 6425,
+                      "duration": 7270,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-31T07:26:30.136Z",
+                      "startTime": "2026-01-31T07:48:51.405Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1283,15 +1243,15 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 6,
+                      "workerIndex": 5,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 6151,
+                      "duration": 5791,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-31T07:26:36.577Z",
+                      "startTime": "2026-01-31T07:48:58.898Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1317,34 +1277,34 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 6,
+                      "workerIndex": 5,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 14073,
+                      "duration": 7692,
                       "error": {
-                        "message": "TimeoutError: page.waitForFunction: Timeout 10000ms exceeded.",
-                        "stack": "TimeoutError: page.waitForFunction: Timeout 10000ms exceeded.\n    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:293:20",
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"xයz\u001b[7m12\u001b[27m3\"\u001b[39m\nReceived: \u001b[31m\"xයz\u001b[7m89\u001b[27m3\"\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"xයz\u001b[7m12\u001b[27m3\"\u001b[39m\nReceived: \u001b[31m\"xයz\u001b[7m89\u001b[27m3\"\u001b[39m\n    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:303:35",
                         "location": {
                           "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
-                          "column": 20,
-                          "line": 293
+                          "column": 35,
+                          "line": 303
                         },
-                        "snippet": "\u001b[0m \u001b[90m 291 |\u001b[39m       } \u001b[36melse\u001b[39m {\n \u001b[90m 292 |\u001b[39m         \u001b[90m// Wait for output\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 293 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForFunction(\n \u001b[90m     |\u001b[39m                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 294 |\u001b[39m           (selector) \u001b[33m=>\u001b[39m {\n \u001b[90m 295 |\u001b[39m             \u001b[36mconst\u001b[39m element \u001b[33m=\u001b[39m document\u001b[33m.\u001b[39mquerySelector(selector)\u001b[33m;\u001b[39m\n \u001b[90m 296 |\u001b[39m             \u001b[36mreturn\u001b[39m element \u001b[33m&&\u001b[39m element\u001b[33m.\u001b[39mtextContent\u001b[33m.\u001b[39mtrim()\u001b[33m.\u001b[39mlength \u001b[33m>\u001b[39m \u001b[35m0\u001b[39m\u001b[33m;\u001b[39m\u001b[0m"
+                        "snippet": "\u001b[0m \u001b[90m 301 |\u001b[39m\n \u001b[90m 302 |\u001b[39m         \u001b[36mconst\u001b[39m outputText \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m outputBox\u001b[33m.\u001b[39mtextContent()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 303 |\u001b[39m         expect(outputText\u001b[33m.\u001b[39mtrim())\u001b[33m.\u001b[39mtoBe(scenario\u001b[33m.\u001b[39mexpected)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 304 |\u001b[39m       }\n \u001b[90m 305 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 306 |\u001b[39m   }\u001b[0m"
                       },
                       "errors": [
                         {
                           "location": {
                             "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
-                            "column": 20,
-                            "line": 293
+                            "column": 35,
+                            "line": 303
                           },
-                          "message": "TimeoutError: page.waitForFunction: Timeout 10000ms exceeded.\n\n\u001b[0m \u001b[90m 291 |\u001b[39m       } \u001b[36melse\u001b[39m {\n \u001b[90m 292 |\u001b[39m         \u001b[90m// Wait for output\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 293 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForFunction(\n \u001b[90m     |\u001b[39m                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 294 |\u001b[39m           (selector) \u001b[33m=>\u001b[39m {\n \u001b[90m 295 |\u001b[39m             \u001b[36mconst\u001b[39m element \u001b[33m=\u001b[39m document\u001b[33m.\u001b[39mquerySelector(selector)\u001b[33m;\u001b[39m\n \u001b[90m 296 |\u001b[39m             \u001b[36mreturn\u001b[39m element \u001b[33m&&\u001b[39m element\u001b[33m.\u001b[39mtextContent\u001b[33m.\u001b[39mtrim()\u001b[33m.\u001b[39mlength \u001b[33m>\u001b[39m \u001b[35m0\u001b[39m\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:293:20\u001b[22m"
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"xයz\u001b[7m12\u001b[27m3\"\u001b[39m\nReceived: \u001b[31m\"xයz\u001b[7m89\u001b[27m3\"\u001b[39m\n\n\u001b[0m \u001b[90m 301 |\u001b[39m\n \u001b[90m 302 |\u001b[39m         \u001b[36mconst\u001b[39m outputText \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m outputBox\u001b[33m.\u001b[39mtextContent()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 303 |\u001b[39m         expect(outputText\u001b[33m.\u001b[39mtrim())\u001b[33m.\u001b[39mtoBe(scenario\u001b[33m.\u001b[39mexpected)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 304 |\u001b[39m       }\n \u001b[90m 305 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 306 |\u001b[39m   }\u001b[0m\n\u001b[2m    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:303:35\u001b[22m"
                         }
                       ],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-31T07:26:42.736Z",
+                      "startTime": "2026-01-31T07:49:04.709Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -1365,8 +1325,8 @@
                       ],
                       "errorLocation": {
                         "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
-                        "column": 20,
-                        "line": 293
+                        "column": 35,
+                        "line": 303
                       }
                     }
                   ],
@@ -1380,7 +1340,7 @@
             },
             {
               "title": "Neg_Fun_0007: Single character input",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -1391,60 +1351,20 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 7,
+                      "workerIndex": 6,
                       "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 15121,
-                      "error": {
-                        "message": "TimeoutError: page.waitForFunction: Timeout 10000ms exceeded.",
-                        "stack": "TimeoutError: page.waitForFunction: Timeout 10000ms exceeded.\n    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:293:20",
-                        "location": {
-                          "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
-                          "column": 20,
-                          "line": 293
-                        },
-                        "snippet": "\u001b[0m \u001b[90m 291 |\u001b[39m       } \u001b[36melse\u001b[39m {\n \u001b[90m 292 |\u001b[39m         \u001b[90m// Wait for output\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 293 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForFunction(\n \u001b[90m     |\u001b[39m                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 294 |\u001b[39m           (selector) \u001b[33m=>\u001b[39m {\n \u001b[90m 295 |\u001b[39m             \u001b[36mconst\u001b[39m element \u001b[33m=\u001b[39m document\u001b[33m.\u001b[39mquerySelector(selector)\u001b[33m;\u001b[39m\n \u001b[90m 296 |\u001b[39m             \u001b[36mreturn\u001b[39m element \u001b[33m&&\u001b[39m element\u001b[33m.\u001b[39mtextContent\u001b[33m.\u001b[39mtrim()\u001b[33m.\u001b[39mlength \u001b[33m>\u001b[39m \u001b[35m0\u001b[39m\u001b[33m;\u001b[39m\u001b[0m"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
-                            "column": 20,
-                            "line": 293
-                          },
-                          "message": "TimeoutError: page.waitForFunction: Timeout 10000ms exceeded.\n\n\u001b[0m \u001b[90m 291 |\u001b[39m       } \u001b[36melse\u001b[39m {\n \u001b[90m 292 |\u001b[39m         \u001b[90m// Wait for output\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 293 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForFunction(\n \u001b[90m     |\u001b[39m                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 294 |\u001b[39m           (selector) \u001b[33m=>\u001b[39m {\n \u001b[90m 295 |\u001b[39m             \u001b[36mconst\u001b[39m element \u001b[33m=\u001b[39m document\u001b[33m.\u001b[39mquerySelector(selector)\u001b[33m;\u001b[39m\n \u001b[90m 296 |\u001b[39m             \u001b[36mreturn\u001b[39m element \u001b[33m&&\u001b[39m element\u001b[33m.\u001b[39mtextContent\u001b[33m.\u001b[39mtrim()\u001b[33m.\u001b[39mlength \u001b[33m>\u001b[39m \u001b[35m0\u001b[39m\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:293:20\u001b[22m"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 7835,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-31T07:26:57.505Z",
+                      "startTime": "2026-01-31T07:49:12.926Z",
                       "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-d08d7-0007-Single-character-input/test-failed-1.png"
-                        },
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-d08d7-0007-Single-character-input/video.webm"
-                        },
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-d08d7-0007-Single-character-input/error-context.md"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
-                        "column": 20,
-                        "line": 293
-                      }
+                      "attachments": []
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "963f0d5d1bca2915e267-17488ea0f34367f08c42",
@@ -1454,7 +1374,7 @@
             },
             {
               "title": "Neg_Fun_0008: All caps input",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -1465,60 +1385,20 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 8,
+                      "workerIndex": 6,
                       "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 15023,
-                      "error": {
-                        "message": "TimeoutError: page.waitForFunction: Timeout 10000ms exceeded.",
-                        "stack": "TimeoutError: page.waitForFunction: Timeout 10000ms exceeded.\n    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:293:20",
-                        "location": {
-                          "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
-                          "column": 20,
-                          "line": 293
-                        },
-                        "snippet": "\u001b[0m \u001b[90m 291 |\u001b[39m       } \u001b[36melse\u001b[39m {\n \u001b[90m 292 |\u001b[39m         \u001b[90m// Wait for output\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 293 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForFunction(\n \u001b[90m     |\u001b[39m                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 294 |\u001b[39m           (selector) \u001b[33m=>\u001b[39m {\n \u001b[90m 295 |\u001b[39m             \u001b[36mconst\u001b[39m element \u001b[33m=\u001b[39m document\u001b[33m.\u001b[39mquerySelector(selector)\u001b[33m;\u001b[39m\n \u001b[90m 296 |\u001b[39m             \u001b[36mreturn\u001b[39m element \u001b[33m&&\u001b[39m element\u001b[33m.\u001b[39mtextContent\u001b[33m.\u001b[39mtrim()\u001b[33m.\u001b[39mlength \u001b[33m>\u001b[39m \u001b[35m0\u001b[39m\u001b[33m;\u001b[39m\u001b[0m"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
-                            "column": 20,
-                            "line": 293
-                          },
-                          "message": "TimeoutError: page.waitForFunction: Timeout 10000ms exceeded.\n\n\u001b[0m \u001b[90m 291 |\u001b[39m       } \u001b[36melse\u001b[39m {\n \u001b[90m 292 |\u001b[39m         \u001b[90m// Wait for output\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 293 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForFunction(\n \u001b[90m     |\u001b[39m                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 294 |\u001b[39m           (selector) \u001b[33m=>\u001b[39m {\n \u001b[90m 295 |\u001b[39m             \u001b[36mconst\u001b[39m element \u001b[33m=\u001b[39m document\u001b[33m.\u001b[39mquerySelector(selector)\u001b[33m;\u001b[39m\n \u001b[90m 296 |\u001b[39m             \u001b[36mreturn\u001b[39m element \u001b[33m&&\u001b[39m element\u001b[33m.\u001b[39mtextContent\u001b[33m.\u001b[39mtrim()\u001b[33m.\u001b[39mlength \u001b[33m>\u001b[39m \u001b[35m0\u001b[39m\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:293:20\u001b[22m"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 6465,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-31T07:27:13.646Z",
+                      "startTime": "2026-01-31T07:49:21.031Z",
                       "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-f8bb7-Neg-Fun-0008-All-caps-input/test-failed-1.png"
-                        },
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-f8bb7-Neg-Fun-0008-All-caps-input/video.webm"
-                        },
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/test-results/assignment-IT3040-Assignme-f8bb7-Neg-Fun-0008-All-caps-input/error-context.md"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
-                        "column": 20,
-                        "line": 293
-                      }
+                      "attachments": []
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "963f0d5d1bca2915e267-08b3903aedc15f3fcbb2",
@@ -1539,10 +1419,10 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 9,
+                      "workerIndex": 6,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 10398,
+                      "duration": 7780,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මමයන\u001b[7mව\u001b[27mගෙතරගෙදරකොහෙදයන\u001b[7mව\u001b[27mදෙන්\"\u001b[39m\nReceived: \u001b[31m\"මමයන\u001b[7mwඅ\u001b[27mගෙතරගෙදරකොහෙදයන\u001b[7mwඅ\u001b[27mදෙන්\"\u001b[39m",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මමයන\u001b[7mව\u001b[27mගෙතරගෙදරකොහෙදයන\u001b[7mව\u001b[27mදෙන්\"\u001b[39m\nReceived: \u001b[31m\"මමයන\u001b[7mwඅ\u001b[27mගෙතරගෙදරකොහෙදයන\u001b[7mwඅ\u001b[27mදෙන්\"\u001b[39m\n    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:303:35",
@@ -1566,7 +1446,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-31T07:27:29.624Z",
+                      "startTime": "2026-01-31T07:49:27.512Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -1613,34 +1493,34 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 10,
+                      "workerIndex": 7,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 15148,
+                      "duration": 8070,
                       "error": {
-                        "message": "TimeoutError: page.waitForFunction: Timeout 10000ms exceeded.",
-                        "stack": "TimeoutError: page.waitForFunction: Timeout 10000ms exceeded.\n    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:293:20",
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"www.google.cඔම්\"\u001b[39m\nReceived: \u001b[31m\"test@gmail.com\"\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"www.google.cඔම්\"\u001b[39m\nReceived: \u001b[31m\"test@gmail.com\"\u001b[39m\n    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:303:35",
                         "location": {
                           "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
-                          "column": 20,
-                          "line": 293
+                          "column": 35,
+                          "line": 303
                         },
-                        "snippet": "\u001b[0m \u001b[90m 291 |\u001b[39m       } \u001b[36melse\u001b[39m {\n \u001b[90m 292 |\u001b[39m         \u001b[90m// Wait for output\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 293 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForFunction(\n \u001b[90m     |\u001b[39m                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 294 |\u001b[39m           (selector) \u001b[33m=>\u001b[39m {\n \u001b[90m 295 |\u001b[39m             \u001b[36mconst\u001b[39m element \u001b[33m=\u001b[39m document\u001b[33m.\u001b[39mquerySelector(selector)\u001b[33m;\u001b[39m\n \u001b[90m 296 |\u001b[39m             \u001b[36mreturn\u001b[39m element \u001b[33m&&\u001b[39m element\u001b[33m.\u001b[39mtextContent\u001b[33m.\u001b[39mtrim()\u001b[33m.\u001b[39mlength \u001b[33m>\u001b[39m \u001b[35m0\u001b[39m\u001b[33m;\u001b[39m\u001b[0m"
+                        "snippet": "\u001b[0m \u001b[90m 301 |\u001b[39m\n \u001b[90m 302 |\u001b[39m         \u001b[36mconst\u001b[39m outputText \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m outputBox\u001b[33m.\u001b[39mtextContent()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 303 |\u001b[39m         expect(outputText\u001b[33m.\u001b[39mtrim())\u001b[33m.\u001b[39mtoBe(scenario\u001b[33m.\u001b[39mexpected)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 304 |\u001b[39m       }\n \u001b[90m 305 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 306 |\u001b[39m   }\u001b[0m"
                       },
                       "errors": [
                         {
                           "location": {
                             "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
-                            "column": 20,
-                            "line": 293
+                            "column": 35,
+                            "line": 303
                           },
-                          "message": "TimeoutError: page.waitForFunction: Timeout 10000ms exceeded.\n\n\u001b[0m \u001b[90m 291 |\u001b[39m       } \u001b[36melse\u001b[39m {\n \u001b[90m 292 |\u001b[39m         \u001b[90m// Wait for output\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 293 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForFunction(\n \u001b[90m     |\u001b[39m                    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 294 |\u001b[39m           (selector) \u001b[33m=>\u001b[39m {\n \u001b[90m 295 |\u001b[39m             \u001b[36mconst\u001b[39m element \u001b[33m=\u001b[39m document\u001b[33m.\u001b[39mquerySelector(selector)\u001b[33m;\u001b[39m\n \u001b[90m 296 |\u001b[39m             \u001b[36mreturn\u001b[39m element \u001b[33m&&\u001b[39m element\u001b[33m.\u001b[39mtextContent\u001b[33m.\u001b[39mtrim()\u001b[33m.\u001b[39mlength \u001b[33m>\u001b[39m \u001b[35m0\u001b[39m\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:293:20\u001b[22m"
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"www.google.cඔම්\"\u001b[39m\nReceived: \u001b[31m\"test@gmail.com\"\u001b[39m\n\n\u001b[0m \u001b[90m 301 |\u001b[39m\n \u001b[90m 302 |\u001b[39m         \u001b[36mconst\u001b[39m outputText \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m outputBox\u001b[33m.\u001b[39mtextContent()\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 303 |\u001b[39m         expect(outputText\u001b[33m.\u001b[39mtrim())\u001b[33m.\u001b[39mtoBe(scenario\u001b[33m.\u001b[39mexpected)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 304 |\u001b[39m       }\n \u001b[90m 305 |\u001b[39m     })\u001b[33m;\u001b[39m\n \u001b[90m 306 |\u001b[39m   }\u001b[0m\n\u001b[2m    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:303:35\u001b[22m"
                         }
                       ],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-31T07:27:40.978Z",
+                      "startTime": "2026-01-31T07:49:36.035Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -1661,8 +1541,8 @@
                       ],
                       "errorLocation": {
                         "file": "/Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js",
-                        "column": 20,
-                        "line": 293
+                        "column": 35,
+                        "line": 303
                       }
                     }
                   ],
@@ -1687,10 +1567,10 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 11,
+                      "workerIndex": 8,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 7484,
+                      "duration": 7537,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"අම්මා\"\u001b[39m\nReceived string:    \u001b[31m\"අම්ම\"\u001b[39m",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"අම්මා\"\u001b[39m\nReceived string:    \u001b[31m\"අම්ම\"\u001b[39m\n    at /Users/chathurahiddallaarachchi/Desktop/ITPM_IT23312258/IT23312258-ITPM/tests/assignment.spec.js:333:24",
@@ -1714,7 +1594,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-31T07:27:57.046Z",
+                      "startTime": "2026-01-31T07:49:45.041Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -1755,11 +1635,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-01-31T07:22:34.677Z",
-    "duration": 330481.124,
-    "expected": 23,
+    "startTime": "2026-01-31T07:45:33.076Z",
+    "duration": 259940.62,
+    "expected": 26,
     "skipped": 0,
-    "unexpected": 12,
+    "unexpected": 9,
     "flaky": 0
   }
 }
