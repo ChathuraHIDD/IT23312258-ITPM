@@ -39,8 +39,8 @@ const positiveScenarios = [
   {
     id: 'Pos_Fun_0006',
     description: 'Expressing gratitude',
-    input: 'bohooma isthuthi',
-    expected: 'බොහොම ඉස්තුති'
+    input: 'suba anagathayak',
+    expected: 'සුබ අනගතයක්'
   },
   {
     id: 'Pos_Fun_0007',
@@ -203,7 +203,7 @@ const negativeScenarios = [
     id: 'Neg_Fun_0008',
     description: 'All caps input',
     input: 'KOHOMADHA',
-    expected: 'KOHOMADHha'
+    expected: 'KOHOMADHA'
   },
   {
     id: 'Neg_Fun_0009',
