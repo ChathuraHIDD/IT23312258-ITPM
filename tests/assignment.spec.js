@@ -2,39 +2,39 @@ import { test, expect } from '@playwright/test';
 
 const TARGET_URL = 'https://www.swifttranslator.com/';
 
-// ---------------------------------------------------------------------------
-// 24 POSITIVE SCENARIOS
-// ---------------------------------------------------------------------------
+
+// 24 Positive Scenarios
+
 const positiveScenarios = [
   {
     id: 'Pos_Fun_0001',
-    description: 'Convert a short daily greeting phrase',
-    input: 'oyaata kohomadha?',
-    expected: 'ඔයාට කොහොමද?'
+    description: 'convert a day to day greeting phrase',
+    input: 'oyaa hodin innawadha?',
+    expected: 'ඔයා හොදින් ඉන්නවාද?'
   },
   {
     id: 'Pos_Fun_0002',
-    description: 'Mixed language input (Singlish + English terms)',
-    input: 'machan mata adha meeting ekee Zoom link eka email ekak vidhihata evanna puLuvandha?',
-    expected: 'මචන් මට අද meeting එකේ Zoom link එක email එකක් විදිහට එවන්න පුළුවන්ද?'
+    description: 'Mixedd language input (Singlish + English terms)',//medium
+    input: 'machan mata adha enna wenne nehe eka nisa zoom meeting ekee recording eka email ekak vidhihata ewanna puLuvandha?',
+    expected: 'මචන් මට අද එන්න වෙන්නේ නෑ ඒක නිසා zoom meeting එකේ recording එක email එකක් විදිහට එවන්න පුලුවන්ද?'
   },
   {
     id: 'Pos_Fun_0003',
     description: 'Simple Request',
-    input: 'mata help ekak karanna puLuvandha?',
-    expected: 'මට help එකක් කරන්න පුළුවන්ද?'
+    input: 'mata magee bag eka aran enna puLuvandha?',//medium
+    expected: 'මට මගේ බෑග් එක අරන් එන්න පුළුවන්ද?'
   },
   {
     id: 'Pos_Fun_0004',
     description: 'Morning greeting',
-    input: 'subha udhasanak',
-    expected: 'සුභ උදාසනක්'
+    input: 'subha upandinayak wewa',
+    expected: 'සුභ උපන්දිනයක් වේවා'
   },
   {
     id: 'Pos_Fun_0005',
     description: 'Asking about well-being',
-    input: 'kohomadha oya',
-    expected: 'කොහොමද ඔය'
+    input: 'kohomadha oyage wisthara',
+    expected: 'කොහොමද ඔයගේ විස්තර'
   },
   {
     id: 'Pos_Fun_0006',
@@ -44,149 +44,113 @@ const positiveScenarios = [
   },
   {
     id: 'Pos_Fun_0007',
-    description: 'Going home',
-    input: 'mama gedhara yanawa',
-    expected: 'මම ගෙදර යනව'
+    description: 'Tense variation - past tense',
+    input: 'mama iiye gedara giyemi',
+    expected: 'මම ඊයේ ගෙදර ගියේමි'
   },
   {
     id: 'Pos_Fun_0008',
-    description: 'Eating food',
-    input: 'mama kaema kanawa',
-    expected: 'මම කෑම කනව'
+    description: 'currency/numeric format',
+    input: 'mama mata rupiyal 5000 yak denna puLuwandhaa ?',//medium
+    expected: 'මම මට රුපියල් 5000 යක් දෙන්න පුලුවන්ද ?'
   },
   {
     id: 'Pos_Fun_0009',
-    description: 'Simple question about name',
-    input: 'oyage nama mokakdha',
-    expected: 'ඔයගේ නම මොකක්ද'
+    description: 'Simple question',
+    input: 'oyage wayasa keeyadha',
+    expected: 'ඔයගේ වයස කීයද'
   },
   {
     id: 'Pos_Fun_0010',
     description: 'Farewell phrase',
-    input: 'mama yanawa',
-    expected: 'මම යනව'
+    input: 'obata suba gaman !',
+    expected: 'ඔබට සුභ ගමන් !'
   },
   {
     id: 'Pos_Fun_0011',
-    description: 'Request for water',
-    input: 'mata vathura dhenna',
-    expected: 'මට වතුර දෙන්න'
+    description: 'A simple Request',
+    input: 'mage kooppe dhenna',
+    expected: 'මගේ කෝප්පේ දෙන්න'
   },
   {
     id: 'Pos_Fun_0012',
-    description: 'Talking about work',
-    input: 'mama office ekata yanawa',
-    expected: 'මම office එකට යනව'
+    description: 'day to day activity',//long (character 389)
+    input: 'ada mata ikkmanata gedara yanna onee mokada ape gedara tiyenne godak dura nisa .thawa deyak heta ape gedara dhaanayak tyanawa ekata badu wagayak gannath ekka ammath ekk ynn onne.oyai oyagee pawule hamomath ekkha heta ape gedhara enna dhanee gedarata sahabhagee wennath ekkama anith eka thamai enakota food city eken loku ice cream ekak aran enna puLuwandha ? man awahama salli oyata dennam.',
+    expected: 'අද මට ඉක්මනට ගෙදර යන්න ඕනේ,මොක්ද අපේ ගෙදර තියෙන්නේ ගොඩක් දුර නිසා .තව දෙයක් හෙට අපේ ගෙදර දානයක් තියනවා ඒකට බඩු වගයක් ගන්නත් එක්ක අම්මත් එක්ක යන්න ඕනේ.ඔයාගේ පවුලේ හැමෝමත් එක්ක හෙට අපේ ගෙදර එන්න දානේ ගෙදරට සහභාගී වෙන්නත් එක්කම අනිත් එක තමයි එනකොට ෆූඩ් city එකෙන් ලොකු ice cream එකක් අරන් එන්න පුලුවන්ද ? මම ආවහම සල්ලි ඔයාට දෙන්නම් .'
   },
   {
     id: 'Pos_Fun_0013',
-    description: 'Asking for location',
-    input: 'meka kohedha',
-    expected: 'මෙක කොහෙද'
+    description: 'Asking for location',//medium 
+    input: 'methana idan oyagee gewal walata yanne kohomada ? mama dan inne paanaduree',
+    expected: 'මෙතන ඉදන් ඔයාගේ ගෙවල් වලට යන්නේ කොහොමද ?  මම දැන් ඉන්නේ පානදුරේ.'
   },
   {
     id: 'Pos_Fun_0014',
     description: 'Time-related question',
-    input: 'velawa kiyatha',
-    expected: 'වේලාව කියත'
+    input: 'dan welawa kiyanna',
+    expected: 'දැන් වේලාව කියන්න'
   },
   {
     id: 'Pos_Fun_0015',
     description: 'Affirmative response',
-    input: 'ow mama karanna',
-    expected: 'ඔව් මම කරන්න'
+    input: 'ow mama karannnam',
+    expected: 'ඔව් මම කරන්නම්'
   },
   {
     id: 'Pos_Fun_0016',
     description: 'Negative response',
-    input: 'naeae mama baehe',
-    expected: 'නෑඒ මම බෑහේ'
+    input: 'bee mata eeka karanna baehe',
+    expected: 'බෑ මට ඒක කරන්න බෑහැ'
   },
   {
     id: 'Pos_Fun_0017',
-    description: 'Talking about studying',
-    input: 'mama padham kiyawanawa',
-    expected: 'මම පදම් කියවනව'
+    description: 'Repeated word expressions',
+    input: 'as deka piyana nidaganna mata be be be mata nidanna be',//medium
+    expected: 'ඇස් දෙක පියාන නිදාගන්න මට බෑ බෑ බෑ මට නිදන්න බෑ'
   },
   {
     id: 'Pos_Fun_0018',
-    description: 'Asking to come',
-    input: 'enna puluwandha',
-    expected: 'එන්න පුළුවන්ද'
+    description: 'command form',
+    input: 'heta mee wadhe aniwaren iwara karanna',//medium
+    expected: 'ෙට මේ වැඩේ අනිවාර්යයෙන් ඉවර කරන්න'
   },
   {
     id: 'Pos_Fun_0019',
     description: 'Talking about weather',
-    input: 'adha wassa enawa',
-    expected: 'අද වැස්ස එනව'
+    input: 'adha reeta wahiyidha',
+    expected: 'අද රෑට වහියිද'
   },
   {
     id: 'Pos_Fun_0020',
     description: 'Expression of tiredness',
-    input: 'mata harima saaradhaiyi',
-    expected: 'මට හරිම සාරදයියි'
+    input: 'mata harima mahansiyi ude idan wada karapu nisa',//medium
+    expected: 'මට හරිම මහන්සි උදේ ඉදන් වැඩ කරපු නිසා'
   },
   {
     id: 'Pos_Fun_0021',
-    description: 'Asking about lunch',
-    input: 'adha lunch eka mokakdha',
-    expected: 'අද lunch එක මොකක්ද'
+    description: 'mixed language input (Singlish + English terms)',
+    input: 'adha lunch eka monawadha genawee ?',//medium
+    expected: 'අද lunch එක මොනවද ගෙනාවේ ?'
   },
   {
     id: 'Pos_Fun_0022',
     description: 'Simple past tense',
-    input: 'mama giya',
-    expected: 'මම ගිය'
+    input: 'mama giyaa',
+    expected: 'මම ගියා'
   },
   {
     id: 'Pos_Fun_0023',
-    description: 'Expressing happiness',
-    input: 'mata harima santhosaiyi',
-    expected: 'මට හරිම සන්තෝසයයි'
+    description: 'Expressions',
+    input: 'mata harima santhosaiyi oya gana', //medium
+    expected: 'මට හරිම සන්තෝසයයි ඔයා ගැන'
   },
   {
     id: 'Pos_Fun_0024',
-    description: 'Asking to wait',
-    input: 'tikak inna',
-    expected: 'ටිකක් ඉන්න'
-  },
-  // NEW POSITIVE SCENARIOS
-  {
-    id: 'Pos_Fun_0025',
     description: 'Punctuation: Comma usage',
     input: 'mama, oya, api',
     expected: 'මම, ඔය, අපි'
   },
-  {
-    id: 'Pos_Fun_0026',
-    description: 'Numbers mixed with text',
-    input: 'mama 2025 di gedhara yanawa',
-    expected: 'මම 2025 දි ගෙදර යනව'
-  },
-  {
-    id: 'Pos_Fun_0027',
-    description: 'English date format',
-    input: 'adha 2025-01-29',
-    expected: 'අද 2025-01-29'
-  },
-  {
-    id: 'Pos_Fun_0028',
-    description: 'Long sentence (Medium length)',
-    input: 'mama heta udhe negitala gedhara gihilla aayeth enawa',
-    expected: 'මම හෙට උදේ නැගිටල ගෙදර ගිහිල්ල ආයෙත් එනව'
-  },
-  {
-    id: 'Pos_Fun_0029',
-    description: 'Combined sentences with full stop',
-    input: 'mama yanawa. oya enna.',
-    expected: 'මම යනව. ඔය එන්න.'
-  },
-  {
-    id: 'Pos_Fun_0030',
-    description: 'Exclamation',
-    input: 'hari shook!',
-    expected: 'හරි ෂෝක්!'
-  }
+  
 ];
 
 // ---------------------------------------------------------------------------
