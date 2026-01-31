@@ -9,8 +9,8 @@ const positiveScenarios = [
   {
     id: 'Pos_Fun_0001',
     description: 'convert a day to day greeting phrase',
-    input: 'oyaa hodin innavadha?',
-    expected: 'ඔයා හොඩින් ඉන්නවද?'
+    input: 'oyaa hodhin innavadha?',
+    expected: 'ඔයා හොදින් ඉන්නවද?'
   },
   {
     id: 'Pos_Fun_0002',
@@ -27,8 +27,8 @@ const positiveScenarios = [
   {
     id: 'Pos_Fun_0004',
     description: 'Morning greeting',
-    input: 'subha upandhinayak vevaa',
-    expected: 'සුබ්හ උපන්දිනයක් වෙවා'
+    input: 'suba upandhinayak vevaa',
+    expected: 'සුබ උපන්දිනයක් වෙවා'
   },
   {
     id: 'Pos_Fun_0005',
@@ -160,20 +160,20 @@ const negativeScenarios = [
   {
     id: 'Neg_Fun_0001',
     description: 'Chat shorthand "Thx" should fail to convert meaningfully',
-    input: 'Thxx',
-    expected: 'ථx'
+    input: 'Thx',
+    expected: 'තෑන්ක්ස්'
   },
   {
     id: 'Neg_Fun_0002',
     description: 'Incorrect stress test with missing spaces',
     input: 'mamagedharayanavaa',
-    expected: 'මමගෙදරයනවා'
+    expected: 'මම ගෙදර යනවා'
   },
   {
     id: 'Neg_Fun_0003',
-    description: 'Numbers only input',
-    input: '12345',
-    expected: '12345'
+    description: 'Slang and colloquial phrasing',
+    input: 'ado eka maru machan',
+    expected: 'අඩෝ ඒක මරු මචං'
   },
   {
     id: 'Neg_Fun_0004',
