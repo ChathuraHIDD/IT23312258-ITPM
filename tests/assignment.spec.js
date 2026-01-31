@@ -9,14 +9,14 @@ const positiveScenarios = [
   {
     id: 'Pos_Fun_0001',
     description: 'convert a day to day greeting phrase',
-    input: 'oyaa hodin innawadha?',
-    expected: 'ඔයා හොඩින් ඉන්නwඅද?'
+    input: 'oyaa hodin innavadha?',
+    expected: 'ඔයා හොඩින් ඉන්නවද?'
   },
   {
     id: 'Pos_Fun_0002',
     description: 'Mixedd language input (Singlish + English terms)',//medium
-    input: 'machan mata adha enna wenne nehe eka nisa zoom meeting ekee recording eka email ekak vidhihata ewanna puLuvandha?',
-    expected: 'මචන් මට අද එන්න wඑන්නෙ නෙහෙ එක නිස zoom meeting එකේ recording එක email එකක් විදිහට එwඅන්න පුලුවන්ද?'
+    input: 'machan mata adha enna wenne nehe eka nisa zoom meeting ekee recording eka email ekak vidhihata evanna puLuvandha?',
+    expected: 'මචන් මට අද එන්න wඑන්නෙ නෙහෙ එක නිස zoom meeting එකේ recording එක email එකක් විදිහට එවන්න පුළුවන්ද?'
   },
   {
     id: 'Pos_Fun_0003',
@@ -27,14 +27,14 @@ const positiveScenarios = [
   {
     id: 'Pos_Fun_0004',
     description: 'Morning greeting',
-    input: 'subha upandhinayak wewaa',
-    expected: 'සුබ්හ උපන්දිනයක් wඑwආ'
+    input: 'subha upandhinayak vevaa',
+    expected: 'සුබ්හ උපන්දිනයක් වෙවා'
   },
   {
     id: 'Pos_Fun_0005',
     description: 'Asking about well-being',
-    input: 'kohomadha oyage wisthara',
-    expected: 'කොහොමද ඔයගෙ wඉස්තර'
+    input: 'kohomadha oyage visthara',
+    expected: 'කොහොමද ඔයගෙ විස්තර'
   },
   {
     id: 'Pos_Fun_0006',
@@ -51,8 +51,8 @@ const positiveScenarios = [
   {
     id: 'Pos_Fun_0008',
     description: 'currency/numeric format',
-    input: 'mama mata rupiyal 5000 yak dhenna puLuwandha ?',//medium
-    expected: 'මම මට රුපියල් 5000 යක් දෙන්න පුළුwඅන්ද ?'
+    input: 'mama mata rupiyal 5000 yak dhenna puLuvandha ?',//medium
+    expected: 'මම මට රුපියල් 5000 යක් දෙන්න පුළුවන්ද ?'
   },
   {
     id: 'Pos_Fun_0009',
@@ -75,14 +75,14 @@ const positiveScenarios = [
   {
     id: 'Pos_Fun_0012',
     description: 'day to day activity',//long (character 389)
-    input: 'ada mata ikkmanata gedara yanna onee mokada ape gedara tiyenne godak dura nisa .thawa deyak heta ape gedara dhaanayak tyanawa ekata badu wagayak gannath ekka ammath ekk ynn onne.oyai oyagee pawule hamomath ekkha heta ape gedhara enna dhanee gedarata sahabhagee wennath ekkama anith eka thamai enakota food city eken loku ice cream ekak aran enna puLuwandha ? man awahama salli oyata dennam.',
-    expected: 'අඩ මට ඉක්ක්මනට ගෙඩර යන්න ඔනේ මොකඩ ape ගෙඩර ටියෙන්නෙ ගොඩක් ඩුර නිස .තwඅ ඩෙයක් හෙට ape ගෙඩර දානයක් ට්යනwඅ එකට බඩු wඅගයක් ගන්නත් එක්ක අම්මත් එක්ක් ය්න්න් ඔන්නෙ.ඔයෛ ඔයගේ පwඋලෙ හමොමත් එක්ක්හ හෙට ape ගෙදර එන්න දනේ ගෙඩරට සහබ්හගේ wඑන්නත් එක්කම අනිත් එක තමෛ එනකොට food city එකෙන් ලොකු ice cream එකක් අරන් එන්න පුළුwඅන්ද ? man අwඅහම සල්ලි ඔයට ඩෙන්නම්.'
+    input: 'adha mata ikkmanata gedhara yanna onee mokadha ape gedhara tiyenne godak dhura nisaa .thava dheyak heta ape gedara dhaanayak tyanava ekata badu wagayak gannath ekka ammath ekk ynn onne.oyai oyagee pawule hamomath ekkha heta ape gedhara enna dhanee gedarata sahabhagee wennath ekkama anith eka thamai enakota food city eken loku ice cream ekak aran enna puLuvandha ? mama avahama salli oyata dhennam.',
+    expected: 'අද මට ඉක්ක්මනට ගෙදර යන්න ඔනේ මොකද ape ගෙදර ටියෙන්නෙ ගොඩක් දුර නිසා .තව දෙයක් හෙට ape ගෙඩර දානයක් ට්යනව එකට බඩු wඅගයක් ගන්නත් එක්ක අම්මත් එක්ක් ය්න්න් ඔන්නෙ.ඔයෛ ඔයගේ පwඋලෙ හමොමත් එක්ක්හ හෙට ape ගෙදර එන්න දනේ ගෙඩරට සහබ්හගේ wඑන්නත් එක්කම අනිත් එක තමෛ එනකොට food city එකෙන් ලොකු ice cream එකක් අරන් එන්න පුළුවන්ද ? මම අවහම සල්ලි ඔයට දෙන්නම්.'
   },
   {
     id: 'Pos_Fun_0013',
     description: 'Asking for location',//medium 
     input: 'methana idhan oyagee gewal walata yanne kohomadha ? mama dhan inne paanadhuree',
-    expected: 'මෙතන ඉදන් ඔයගේ ගෙwඅල් wඅලට යන්නෙ කොහොමද ? මම දන් ඉන්නේ පානදුරේ'
+    expected: 'methana idhan oyagee geval valata yanne kohomadha ? mama dhan inne paanadhuree'
   },
   {
     id: 'Pos_Fun_0014',
