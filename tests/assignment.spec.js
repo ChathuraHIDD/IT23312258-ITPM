@@ -81,14 +81,14 @@ const positiveScenarios = [
   {
     id: 'Pos_Fun_0013',
     description: 'Asking for location',//medium 
-    input: 'methana idhan oyagee gewal walata yanne kohomadha ? mama dhan inne paanadhuree',
-    expected: 'methana idhan oyagee geval valata yanne kohomadha ? mama dhan inne paanadhuree'
+    input: 'methana idhan oyagee geval valata yanne kohomadha ? mama dhaen inne paanadhuree',
+    expected: 'මෙතන ඉදන් ඔයගේ ගෙවල් වලට යන්නෙ කොහොමද ? මම දැන් ඉන්නේ පානදුරේ'
   },
   {
     id: 'Pos_Fun_0014',
     description: 'Time-related question',
-    input: 'dhan welawa kiyanna',
-    expected: 'දන් wඑලwඅ කියන්න'
+    input: 'dhaen velava kiyanna',
+    expected: 'දැන් වෙලව කියන්න'
   },
   {
     id: 'Pos_Fun_0015',
@@ -117,20 +117,20 @@ const positiveScenarios = [
   {
     id: 'Pos_Fun_0019',
     description: 'Talking about weather',
-    input: 'adha reeta wahiyidha',
-    expected: 'අද රේට wඅහියිද'
+    input: 'adha raeeta vahiyidha ?',
+    expected: 'අද රෑට වහියිද ?'
   },
   {
     id: 'Pos_Fun_0020',
     description: 'Expression of tiredness',
-    input: 'mata harima mahansiyi ude idan wada karapu nisa',//medium
-    expected: 'මට හරිම මහන්සියි උඩෙ ඉඩන් wඅඩ කරපු නිස'
+    input: 'mata harima mahansiyi udhee idan vaeda karapu nisaa',//medium
+    expected: 'මට හරිම මහන්සියි උදේ ඉඩන් වැඩ කරපු නිසා'
   },
   {
     id: 'Pos_Fun_0021',
     description: 'mixed language input (Singlish + English terms)',
-    input: 'adha lunch eka monawadha genawee ?',//medium
-    expected: 'අද lunch එක මොනwඅද ගෙනwඒ ?'
+    input: 'adha lunch ekata monavadha genavee ?',//medium
+    expected: 'අද lunch එකට මොනවද ගෙනවේ ?'
   },
   {
     id: 'Pos_Fun_0022',
