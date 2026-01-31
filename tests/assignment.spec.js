@@ -6,7 +6,7 @@ const TARGET_URL = 'https://www.swifttranslator.com/';
 // 24 Positive Scenarios
 
 const positiveScenarios = [
-  {
+ {
     id: 'Pos_Fun_0001',
     description: 'convert a day to day greeting phrase',
     input: 'oyaa hodhin innavadha?',
@@ -15,8 +15,8 @@ const positiveScenarios = [
   {
     id: 'Pos_Fun_0002',
     description: 'Mixedd language input (Singlish + English terms)',//medium
-    input: 'machan mata adha enna wenne nehe eka nisa zoom meeting ekee recording eka email ekak vidhihata evanna puLuvandha?',
-    expected: 'මචන් මට අද එන්න wඑන්නෙ නෙහෙ එක නිස zoom meeting එකේ recording එක email එකක් විදිහට එවන්න පුළුවන්ද?'
+    input: 'machan mata adha enna venne naehae eka nisaa zoom meeting ekee recording eka email ekak vidhihata evanna puLuvandha?',
+    expected: 'මචන් මට අද එන්න වෙන්නෙ නැහැ එක නිසා zoom meeting එකේ recording එක email එකක් විදිහට එවන්න පුළුවන්ද?'
   },
   {
     id: 'Pos_Fun_0003',
@@ -28,7 +28,7 @@ const positiveScenarios = [
     id: 'Pos_Fun_0004',
     description: 'Morning greeting',
     input: 'suba upandhinayak vevaa',
-    expected: 'සුබ උපන්දිනයක් වෙවා'
+    expected: 'සුබ උපන්දිනයක් වෙවා !'
   },
   {
     id: 'Pos_Fun_0005',
@@ -39,8 +39,8 @@ const positiveScenarios = [
   {
     id: 'Pos_Fun_0006',
     description: 'Expressing gratitude',
-    input: 'suba anagathayak',
-    expected: 'සුබ අනගතයක්'
+    input: 'suba anagathayak !',
+    expected: 'සුබ අනගතයක් !'
   },
   {
     id: 'Pos_Fun_0007',
@@ -56,9 +56,9 @@ const positiveScenarios = [
   },
   {
     id: 'Pos_Fun_0009',
-    description: 'Simple question',
-    input: 'oyage usa kochcharadha',
-    expected: 'ඔයගෙ උස කොච්චරද'
+    description: 'Currency format',
+    input: 'Rs. 5343',
+    expected: 'Rs. 5343'
   },
   {
     id: 'Pos_Fun_0010',
@@ -99,14 +99,14 @@ const positiveScenarios = [
   {
     id: 'Pos_Fun_0016',
     description: 'Negative response',
-    input: 'bee mata eeka karanna baehe',
-    expected: 'bee මට ඒක කරන්න බැහෙ'
+    input: 'baee mata eeka karanna bae',
+    expected: 'බෑ මට ඒක කරන්න බැ'
   },
   {
     id: 'Pos_Fun_0017',
     description: 'Repeated word expressions',
-    input: 'as dheka piyaana nidhaaganna mata ba be be mata nidhanna be',//medium
-    expected: 'අස් දෙක පියාන නිදාගන්න මට බ බෙ බෙ මට නිදන්න බෙ'
+    input: 'aes dheka piyaana nidhaaganna mata bae bae bae mata nidhanna bae',//medium
+    expected: 'ඇස් දෙක පියාන නිදාගන්න මට බැ බැ බැ මට නිදන්න බැ'
   },
   {
     id: 'Pos_Fun_0018',
@@ -141,8 +141,8 @@ const positiveScenarios = [
   {
     id: 'Pos_Fun_0023',
     description: 'Expressions',
-    input: 'mata harima santhosaiyi oya gana', //medium
-    expected: 'මට හරිම සන්තොසෛයි ඔය ගන'
+    input: 'mata harima santhoshayi oya gaena', //medium
+    expected: 'මට හරිම සන්තොශයි ඔය ගැන'
   },
   {
     id: 'Pos_Fun_0024',
@@ -218,7 +218,6 @@ const negativeScenarios = [
     expected: 'www.google.cඔම්'
   },
 ];
-
 
 // Test Suite
 
